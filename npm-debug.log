@@ -1,0 +1,3031 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp-sass',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose cache add [ 'gulp-sass', null ]
+5 verbose cache add name=undefined spec="gulp-sass" args=["gulp-sass",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gulp-sass',
+6 verbose parsed url   path: 'gulp-sass',
+6 verbose parsed url   href: 'gulp-sass' }
+7 silly lockFile 993318e6-gulp-sass gulp-sass
+8 verbose lock gulp-sass /Users/jessie/.npm/993318e6-gulp-sass.lock
+9 silly lockFile 993318e6-gulp-sass gulp-sass
+10 silly lockFile 993318e6-gulp-sass gulp-sass
+11 verbose addNamed [ 'gulp-sass', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 59b5e58d-gulp-sass gulp-sass@
+14 verbose lock gulp-sass@ /Users/jessie/.npm/59b5e58d-gulp-sass.lock
+15 silly addNameRange { name: 'gulp-sass', range: '*', hasData: false }
+16 verbose request where is /gulp-sass
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 3250935debb3ff74
+19 verbose url raw /gulp-sass
+20 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sass' ]
+21 verbose url resolved https://registry.npmjs.org/gulp-sass
+22 verbose request where is https://registry.npmjs.org/gulp-sass
+23 info trying registry request attempt 1 at 19:57:03
+24 verbose etag "A867BYF94SZUOR1C2LJTO1J1I"
+25 http GET https://registry.npmjs.org/gulp-sass
+26 http 200 https://registry.npmjs.org/gulp-sass
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"BYEYRU7Y0BBHIB5H7NXHGDZTR"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '39546',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Wed, 09 Sep 2015 23:57:03 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1441843023.897484,VS0,VE37',
+27 silly registry.get     vary: 'Accept' } ]
+28 silly addNameRange number 2 { name: 'gulp-sass', range: '*', hasData: true }
+29 silly addNameRange versions [ 'gulp-sass',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.7.3',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.2.1',
+29 silly addNameRange     '1.2.2',
+29 silly addNameRange     '1.2.3',
+29 silly addNameRange     '1.2.4',
+29 silly addNameRange     '1.3.0',
+29 silly addNameRange     '1.3.1',
+29 silly addNameRange     '1.3.2',
+29 silly addNameRange     '1.3.3',
+29 silly addNameRange     '2.0.0-alpha.1',
+29 silly addNameRange     '2.0.0',
+29 silly addNameRange     '2.0.2',
+29 silly addNameRange     '2.0.3',
+29 silly addNameRange     '2.0.4' ] ]
+30 verbose addNamed [ 'gulp-sass', '2.0.4' ]
+31 verbose addNamed [ '2.0.4', '2.0.4' ]
+32 silly lockFile ad0cc6b2-gulp-sass-2-0-4 gulp-sass@2.0.4
+33 verbose lock gulp-sass@2.0.4 /Users/jessie/.npm/ad0cc6b2-gulp-sass-2-0-4.lock
+34 silly lockFile ad0cc6b2-gulp-sass-2-0-4 gulp-sass@2.0.4
+35 silly lockFile ad0cc6b2-gulp-sass-2-0-4 gulp-sass@2.0.4
+36 silly lockFile 59b5e58d-gulp-sass gulp-sass@
+37 silly lockFile 59b5e58d-gulp-sass gulp-sass@
+38 silly resolved [ { name: 'gulp-sass',
+38 silly resolved     version: '2.0.4',
+38 silly resolved     description: 'Gulp plugin for sass',
+38 silly resolved     main: 'index.js',
+38 silly resolved     scripts: { test: 'mocha test' },
+38 silly resolved     repository: { type: 'git', url: 'git://github.com/dlmanning/gulp-sass.git' },
+38 silly resolved     keywords: [ 'gulpplugin', 'sass', 'gulp' ],
+38 silly resolved     author: { name: 'David Manning' },
+38 silly resolved     license: 'MIT',
+38 silly resolved     bugs: { url: 'https://github.com/dlmanning/gulp-sass/issues' },
+38 silly resolved     dependencies:
+38 silly resolved      { 'gulp-util': '^3.0',
+38 silly resolved        'node-sass': '^3.0.0',
+38 silly resolved        'object-assign': '^2.0.0',
+38 silly resolved        through2: '^0.6.3',
+38 silly resolved        'vinyl-sourcemaps-apply': '~0.1.1' },
+38 silly resolved     devDependencies:
+38 silly resolved      { 'autoprefixer-core': '^5.1.11',
+38 silly resolved        eslint: '^0.17.1',
+38 silly resolved        globule: '^0.2.0',
+38 silly resolved        gulp: '^3.8.11',
+38 silly resolved        'gulp-postcss': '^5.1.6',
+38 silly resolved        'gulp-sourcemaps': '^1.5.2',
+38 silly resolved        'gulp-tap': '^0.1.3',
+38 silly resolved        mocha: '^2.2.1',
+38 silly resolved        should: '^5.2.0' },
+38 silly resolved     gitHead: '8f5e91f4427161f17415edfd709085205ee47608',
+38 silly resolved     homepage: 'https://github.com/dlmanning/gulp-sass#readme',
+38 silly resolved     _id: 'gulp-sass@2.0.4',
+38 silly resolved     _shasum: '9703de980b9ebf2a418271e0c5e3e4ed9adf76ba',
+38 silly resolved     _from: 'gulp-sass@',
+38 silly resolved     _npmVersion: '2.11.2',
+38 silly resolved     _nodeVersion: '0.12.5',
+38 silly resolved     _npmUser: { name: 'snugug', email: 'sam@snug.ug' },
+38 silly resolved     dist:
+38 silly resolved      { shasum: '9703de980b9ebf2a418271e0c5e3e4ed9adf76ba',
+38 silly resolved        tarball: 'http://registry.npmjs.org/gulp-sass/-/gulp-sass-2.0.4.tgz' },
+38 silly resolved     maintainers: [ [Object], [Object] ],
+38 silly resolved     directories: {},
+38 silly resolved     _resolved: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.0.4.tgz',
+38 silly resolved     readme: 'ERROR: No README data found!' } ]
+39 info install gulp-sass@2.0.4 into /Users/jessie/Dropbox/3-sites/4-drag-drop
+40 info installOne gulp-sass@2.0.4
+41 verbose node_modules/gulp-sass unbuild
+42 verbose tar unpack /Users/jessie/.npm/gulp-sass/2.0.4/package.tgz
+43 silly lockFile f25f3f8a-drag-drop-node-modules-gulp-sass tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass
+44 verbose lock tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass /Users/jessie/.npm/f25f3f8a-drag-drop-node-modules-gulp-sass.lock
+45 silly lockFile 6d1c6d1a--npm-gulp-sass-2-0-4-package-tgz tar:///Users/jessie/.npm/gulp-sass/2.0.4/package.tgz
+46 verbose lock tar:///Users/jessie/.npm/gulp-sass/2.0.4/package.tgz /Users/jessie/.npm/6d1c6d1a--npm-gulp-sass-2-0-4-package-tgz.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm extractEntry index.js
+53 silly gunzTarPerm extractEntry CONTRIBUTING.md
+54 silly gunzTarPerm extractEntry .eslintrc
+55 silly gunzTarPerm extractEntry .editorconfig
+56 silly gunzTarPerm extractEntry .travis.yml
+57 silly gunzTarPerm extractEntry CHANGELOG.md
+58 silly lockFile f25f3f8a-drag-drop-node-modules-gulp-sass tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass
+59 silly lockFile f25f3f8a-drag-drop-node-modules-gulp-sass tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass
+60 silly lockFile 6d1c6d1a--npm-gulp-sass-2-0-4-package-tgz tar:///Users/jessie/.npm/gulp-sass/2.0.4/package.tgz
+61 silly lockFile 6d1c6d1a--npm-gulp-sass-2-0-4-package-tgz tar:///Users/jessie/.npm/gulp-sass/2.0.4/package.tgz
+62 info preinstall gulp-sass@2.0.4
+63 verbose readDependencies using package.json deps
+64 verbose readDependencies using package.json deps
+65 verbose cache add [ 'gulp-util@^3.0', null ]
+66 verbose cache add name=undefined spec="gulp-util@^3.0" args=["gulp-util@^3.0",null]
+67 verbose parsed url { protocol: null,
+67 verbose parsed url   slashes: null,
+67 verbose parsed url   auth: null,
+67 verbose parsed url   host: null,
+67 verbose parsed url   port: null,
+67 verbose parsed url   hostname: null,
+67 verbose parsed url   hash: null,
+67 verbose parsed url   search: null,
+67 verbose parsed url   query: null,
+67 verbose parsed url   pathname: 'gulp-util@^3.0',
+67 verbose parsed url   path: 'gulp-util@^3.0',
+67 verbose parsed url   href: 'gulp-util@^3.0' }
+68 verbose cache add [ 'node-sass@^3.0.0', null ]
+69 verbose cache add name=undefined spec="node-sass@^3.0.0" args=["node-sass@^3.0.0",null]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: 'node-sass@^3.0.0',
+70 verbose parsed url   path: 'node-sass@^3.0.0',
+70 verbose parsed url   href: 'node-sass@^3.0.0' }
+71 verbose cache add [ 'object-assign@^2.0.0', null ]
+72 verbose cache add name=undefined spec="object-assign@^2.0.0" args=["object-assign@^2.0.0",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'object-assign@^2.0.0',
+73 verbose parsed url   path: 'object-assign@^2.0.0',
+73 verbose parsed url   href: 'object-assign@^2.0.0' }
+74 verbose cache add [ 'through2@^0.6.3', null ]
+75 verbose cache add name=undefined spec="through2@^0.6.3" args=["through2@^0.6.3",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'through2@^0.6.3',
+76 verbose parsed url   path: 'through2@^0.6.3',
+76 verbose parsed url   href: 'through2@^0.6.3' }
+77 verbose cache add name="gulp-util" spec="^3.0" args=["gulp-util","^3.0"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '^3.0',
+78 verbose parsed url   path: '^3.0',
+78 verbose parsed url   href: '^3.0' }
+79 verbose addNamed [ 'gulp-util', '^3.0' ]
+80 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+81 silly lockFile d29ddf51-gulp-util-3-0 gulp-util@^3.0
+82 verbose lock gulp-util@^3.0 /Users/jessie/.npm/d29ddf51-gulp-util-3-0.lock
+83 verbose cache add name="node-sass" spec="^3.0.0" args=["node-sass","^3.0.0"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '^3.0.0',
+84 verbose parsed url   path: '^3.0.0',
+84 verbose parsed url   href: '^3.0.0' }
+85 verbose addNamed [ 'node-sass', '^3.0.0' ]
+86 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+87 silly lockFile 642a4649-node-sass-3-0-0 node-sass@^3.0.0
+88 verbose lock node-sass@^3.0.0 /Users/jessie/.npm/642a4649-node-sass-3-0-0.lock
+89 verbose cache add [ 'vinyl-sourcemaps-apply@~0.1.1', null ]
+90 verbose cache add name=undefined spec="vinyl-sourcemaps-apply@~0.1.1" args=["vinyl-sourcemaps-apply@~0.1.1",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'vinyl-sourcemaps-apply@~0.1.1',
+91 verbose parsed url   path: 'vinyl-sourcemaps-apply@~0.1.1',
+91 verbose parsed url   href: 'vinyl-sourcemaps-apply@~0.1.1' }
+92 verbose cache add name="object-assign" spec="^2.0.0" args=["object-assign","^2.0.0"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '^2.0.0',
+93 verbose parsed url   path: '^2.0.0',
+93 verbose parsed url   href: '^2.0.0' }
+94 verbose addNamed [ 'object-assign', '^2.0.0' ]
+95 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+96 silly lockFile 5a30528b-object-assign-2-0-0 object-assign@^2.0.0
+97 verbose lock object-assign@^2.0.0 /Users/jessie/.npm/5a30528b-object-assign-2-0-0.lock
+98 verbose cache add name="through2" spec="^0.6.3" args=["through2","^0.6.3"]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '^0.6.3',
+99 verbose parsed url   path: '^0.6.3',
+99 verbose parsed url   href: '^0.6.3' }
+100 verbose addNamed [ 'through2', '^0.6.3' ]
+101 verbose addNamed [ null, '>=0.6.3-0 <0.7.0-0' ]
+102 silly lockFile 66dbcbcf-through2-0-6-3 through2@^0.6.3
+103 verbose lock through2@^0.6.3 /Users/jessie/.npm/66dbcbcf-through2-0-6-3.lock
+104 verbose cache add name="vinyl-sourcemaps-apply" spec="~0.1.1" args=["vinyl-sourcemaps-apply","~0.1.1"]
+105 verbose parsed url { protocol: null,
+105 verbose parsed url   slashes: null,
+105 verbose parsed url   auth: null,
+105 verbose parsed url   host: null,
+105 verbose parsed url   port: null,
+105 verbose parsed url   hostname: null,
+105 verbose parsed url   hash: null,
+105 verbose parsed url   search: null,
+105 verbose parsed url   query: null,
+105 verbose parsed url   pathname: '~0.1.1',
+105 verbose parsed url   path: '~0.1.1',
+105 verbose parsed url   href: '~0.1.1' }
+106 verbose addNamed [ 'vinyl-sourcemaps-apply', '~0.1.1' ]
+107 verbose addNamed [ null, '>=0.1.1-0 <0.2.0-0' ]
+108 silly lockFile c4377087-vinyl-sourcemaps-apply-0-1-1 vinyl-sourcemaps-apply@~0.1.1
+109 verbose lock vinyl-sourcemaps-apply@~0.1.1 /Users/jessie/.npm/c4377087-vinyl-sourcemaps-apply-0-1-1.lock
+110 silly addNameRange { name: 'gulp-util',
+110 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+110 silly addNameRange   hasData: false }
+111 silly addNameRange { name: 'node-sass',
+111 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+111 silly addNameRange   hasData: false }
+112 silly addNameRange { name: 'object-assign',
+112 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+112 silly addNameRange   hasData: false }
+113 silly addNameRange { name: 'through2', range: '>=0.6.3-0 <0.7.0-0', hasData: false }
+114 silly addNameRange { name: 'vinyl-sourcemaps-apply',
+114 silly addNameRange   range: '>=0.1.1-0 <0.2.0-0',
+114 silly addNameRange   hasData: false }
+115 verbose request where is /gulp-util
+116 verbose request registry https://registry.npmjs.org/
+117 verbose url raw /gulp-util
+118 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+119 verbose url resolved https://registry.npmjs.org/gulp-util
+120 verbose request where is https://registry.npmjs.org/gulp-util
+121 info trying registry request attempt 1 at 19:57:04
+122 verbose etag "6NZ39W8N0TAPKAFM413I7TKSJ"
+123 http GET https://registry.npmjs.org/gulp-util
+124 verbose request where is /node-sass
+125 verbose request registry https://registry.npmjs.org/
+126 verbose url raw /node-sass
+127 verbose url resolving [ 'https://registry.npmjs.org/', './node-sass' ]
+128 verbose url resolved https://registry.npmjs.org/node-sass
+129 verbose request where is https://registry.npmjs.org/node-sass
+130 info trying registry request attempt 1 at 19:57:04
+131 verbose etag "1FET5OWPT2NUKSOZUFCHNM2T6"
+132 http GET https://registry.npmjs.org/node-sass
+133 verbose request where is /object-assign
+134 verbose request registry https://registry.npmjs.org/
+135 verbose url raw /object-assign
+136 verbose url resolving [ 'https://registry.npmjs.org/', './object-assign' ]
+137 verbose url resolved https://registry.npmjs.org/object-assign
+138 verbose request where is https://registry.npmjs.org/object-assign
+139 info trying registry request attempt 1 at 19:57:04
+140 verbose etag "DTB98KQTG14YAJLINTYIMKOVV"
+141 http GET https://registry.npmjs.org/object-assign
+142 verbose request where is /through2
+143 verbose request registry https://registry.npmjs.org/
+144 verbose url raw /through2
+145 verbose url resolving [ 'https://registry.npmjs.org/', './through2' ]
+146 verbose url resolved https://registry.npmjs.org/through2
+147 verbose request where is https://registry.npmjs.org/through2
+148 info trying registry request attempt 1 at 19:57:04
+149 verbose etag "AOHEBTEVDL1BBMD1UEHHBU2NX"
+150 http GET https://registry.npmjs.org/through2
+151 verbose request where is /vinyl-sourcemaps-apply
+152 verbose request registry https://registry.npmjs.org/
+153 verbose url raw /vinyl-sourcemaps-apply
+154 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl-sourcemaps-apply' ]
+155 verbose url resolved https://registry.npmjs.org/vinyl-sourcemaps-apply
+156 verbose request where is https://registry.npmjs.org/vinyl-sourcemaps-apply
+157 info trying registry request attempt 1 at 19:57:04
+158 verbose etag "5X4J1NU3C03WVQ353SIUCFT90"
+159 http GET https://registry.npmjs.org/vinyl-sourcemaps-apply
+160 http 304 https://registry.npmjs.org/gulp-util
+161 silly registry.get cb [ 304,
+161 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+161 silly registry.get     via: '1.1 varnish',
+161 silly registry.get     'cache-control': 'max-age=60',
+161 silly registry.get     etag: '"6NZ39W8N0TAPKAFM413I7TKSJ"',
+161 silly registry.get     age: '41',
+161 silly registry.get     connection: 'keep-alive',
+161 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+161 silly registry.get     'x-cache': 'HIT',
+161 silly registry.get     'x-cache-hits': '1',
+161 silly registry.get     'x-timer': 'S1441843024.185094,VS0,VE0',
+161 silly registry.get     vary: 'Accept' } ]
+162 verbose etag https://registry.npmjs.org/gulp-util from cache
+163 silly addNameRange number 2 { name: 'gulp-util', range: '>=3.0.0-0 <4.0.0-0', hasData: true }
+164 silly addNameRange versions [ 'gulp-util',
+164 silly addNameRange   [ '0.0.1',
+164 silly addNameRange     '1.0.0',
+164 silly addNameRange     '1.1.0',
+164 silly addNameRange     '1.1.1',
+164 silly addNameRange     '1.2.0',
+164 silly addNameRange     '1.3.0',
+164 silly addNameRange     '2.0.0',
+164 silly addNameRange     '2.1.1',
+164 silly addNameRange     '2.1.2',
+164 silly addNameRange     '2.1.3',
+164 silly addNameRange     '2.1.4',
+164 silly addNameRange     '2.2.0',
+164 silly addNameRange     '2.2.1',
+164 silly addNameRange     '2.2.2',
+164 silly addNameRange     '2.2.3',
+164 silly addNameRange     '2.2.5',
+164 silly addNameRange     '2.2.6',
+164 silly addNameRange     '2.2.7',
+164 silly addNameRange     '2.2.8',
+164 silly addNameRange     '2.2.9',
+164 silly addNameRange     '2.2.10',
+164 silly addNameRange     '2.2.11',
+164 silly addNameRange     '2.2.12',
+164 silly addNameRange     '2.2.13',
+164 silly addNameRange     '2.2.14',
+164 silly addNameRange     '2.2.15',
+164 silly addNameRange     '2.2.16',
+164 silly addNameRange     '2.2.17',
+164 silly addNameRange     '2.2.18',
+164 silly addNameRange     '2.2.19',
+164 silly addNameRange     '2.2.20',
+164 silly addNameRange     '3.0.0',
+164 silly addNameRange     '3.0.1',
+164 silly addNameRange     '3.0.2',
+164 silly addNameRange     '3.0.3',
+164 silly addNameRange     '3.0.4',
+164 silly addNameRange     '3.0.5',
+164 silly addNameRange     '3.0.6' ] ]
+165 verbose addNamed [ 'gulp-util', '3.0.6' ]
+166 verbose addNamed [ '3.0.6', '3.0.6' ]
+167 silly lockFile d2dca944-gulp-util-3-0-6 gulp-util@3.0.6
+168 verbose lock gulp-util@3.0.6 /Users/jessie/.npm/d2dca944-gulp-util-3-0-6.lock
+169 silly lockFile d2dca944-gulp-util-3-0-6 gulp-util@3.0.6
+170 silly lockFile d2dca944-gulp-util-3-0-6 gulp-util@3.0.6
+171 http 200 https://registry.npmjs.org/object-assign
+172 silly registry.get cb [ 200,
+172 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+172 silly registry.get     etag: '"9Y072UXPGMKE8NKK9IQ13AUIG"',
+172 silly registry.get     'content-type': 'application/json',
+172 silly registry.get     'cache-control': 'max-age=60',
+172 silly registry.get     'content-length': '19803',
+172 silly registry.get     'accept-ranges': 'bytes',
+172 silly registry.get     date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+172 silly registry.get     via: '1.1 varnish',
+172 silly registry.get     age: '59',
+172 silly registry.get     connection: 'keep-alive',
+172 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+172 silly registry.get     'x-cache': 'HIT',
+172 silly registry.get     'x-cache-hits': '1',
+172 silly registry.get     'x-timer': 'S1441843024.186414,VS0,VE0',
+172 silly registry.get     vary: 'Accept' } ]
+173 silly lockFile d29ddf51-gulp-util-3-0 gulp-util@^3.0
+174 silly lockFile d29ddf51-gulp-util-3-0 gulp-util@^3.0
+175 silly addNameRange number 2 { name: 'object-assign',
+175 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+175 silly addNameRange   hasData: true }
+176 silly addNameRange versions [ 'object-assign',
+176 silly addNameRange   [ '0.1.0',
+176 silly addNameRange     '0.1.1',
+176 silly addNameRange     '0.1.2',
+176 silly addNameRange     '0.2.0',
+176 silly addNameRange     '0.2.1',
+176 silly addNameRange     '0.2.2',
+176 silly addNameRange     '0.3.0',
+176 silly addNameRange     '0.3.1',
+176 silly addNameRange     '0.4.0',
+176 silly addNameRange     '1.0.0',
+176 silly addNameRange     '2.0.0',
+176 silly addNameRange     '3.0.0',
+176 silly addNameRange     '2.1.1',
+176 silly addNameRange     '4.0.0',
+176 silly addNameRange     '4.0.1' ] ]
+177 verbose addNamed [ 'object-assign', '2.1.1' ]
+178 verbose addNamed [ '2.1.1', '2.1.1' ]
+179 silly lockFile 52ac3888-object-assign-2-1-1 object-assign@2.1.1
+180 verbose lock object-assign@2.1.1 /Users/jessie/.npm/52ac3888-object-assign-2-1-1.lock
+181 http 200 https://registry.npmjs.org/through2
+182 silly registry.get cb [ 200,
+182 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+182 silly registry.get     etag: '"5XKBGQ69058LUL1OSPGVGCZ2U"',
+182 silly registry.get     'content-type': 'application/json',
+182 silly registry.get     'cache-control': 'max-age=60',
+182 silly registry.get     'content-length': '37410',
+182 silly registry.get     'accept-ranges': 'bytes',
+182 silly registry.get     date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+182 silly registry.get     via: '1.1 varnish',
+182 silly registry.get     age: '23',
+182 silly registry.get     connection: 'keep-alive',
+182 silly registry.get     'x-served-by': 'cache-ord1727-ORD',
+182 silly registry.get     'x-cache': 'HIT',
+182 silly registry.get     'x-cache-hits': '1',
+182 silly registry.get     'x-timer': 'S1441843024.197021,VS0,VE0',
+182 silly registry.get     vary: 'Accept' } ]
+183 silly addNameRange number 2 { name: 'through2', range: '>=0.6.3-0 <0.7.0-0', hasData: true }
+184 silly addNameRange versions [ 'through2',
+184 silly addNameRange   [ '0.0.0',
+184 silly addNameRange     '0.0.1',
+184 silly addNameRange     '0.0.2',
+184 silly addNameRange     '0.0.3',
+184 silly addNameRange     '0.0.4',
+184 silly addNameRange     '0.0.5',
+184 silly addNameRange     '0.1.0',
+184 silly addNameRange     '0.2.0',
+184 silly addNameRange     '0.2.1',
+184 silly addNameRange     '0.2.2',
+184 silly addNameRange     '0.2.3',
+184 silly addNameRange     '0.3.0',
+184 silly addNameRange     '0.4.0',
+184 silly addNameRange     '0.4.1',
+184 silly addNameRange     '1.0.0',
+184 silly addNameRange     '0.4.2',
+184 silly addNameRange     '0.5.0',
+184 silly addNameRange     '0.5.1',
+184 silly addNameRange     '0.6.0',
+184 silly addNameRange     '1.1.0',
+184 silly addNameRange     '0.6.1',
+184 silly addNameRange     '1.1.1',
+184 silly addNameRange     '0.6.2',
+184 silly addNameRange     '0.6.3',
+184 silly addNameRange     '0.6.4',
+184 silly addNameRange     '0.6.5',
+184 silly addNameRange     '2.0.0' ] ]
+185 verbose addNamed [ 'through2', '0.6.5' ]
+186 verbose addNamed [ '0.6.5', '0.6.5' ]
+187 silly lockFile 0698518e-through2-0-6-5 through2@0.6.5
+188 verbose lock through2@0.6.5 /Users/jessie/.npm/0698518e-through2-0-6-5.lock
+189 silly lockFile 52ac3888-object-assign-2-1-1 object-assign@2.1.1
+190 silly lockFile 52ac3888-object-assign-2-1-1 object-assign@2.1.1
+191 silly lockFile 5a30528b-object-assign-2-0-0 object-assign@^2.0.0
+192 silly lockFile 5a30528b-object-assign-2-0-0 object-assign@^2.0.0
+193 silly lockFile 0698518e-through2-0-6-5 through2@0.6.5
+194 silly lockFile 0698518e-through2-0-6-5 through2@0.6.5
+195 silly lockFile 66dbcbcf-through2-0-6-3 through2@^0.6.3
+196 silly lockFile 66dbcbcf-through2-0-6-3 through2@^0.6.3
+197 http 304 https://registry.npmjs.org/vinyl-sourcemaps-apply
+198 silly registry.get cb [ 304,
+198 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+198 silly registry.get     via: '1.1 varnish',
+198 silly registry.get     'cache-control': 'max-age=60',
+198 silly registry.get     etag: '"5X4J1NU3C03WVQ353SIUCFT90"',
+198 silly registry.get     age: '0',
+198 silly registry.get     connection: 'keep-alive',
+198 silly registry.get     'x-served-by': 'cache-ord1720-ORD',
+198 silly registry.get     'x-cache': 'HIT',
+198 silly registry.get     'x-cache-hits': '1',
+198 silly registry.get     'x-timer': 'S1441843024.189075,VS0,VE72',
+198 silly registry.get     vary: 'Accept' } ]
+199 verbose etag https://registry.npmjs.org/vinyl-sourcemaps-apply from cache
+200 silly addNameRange number 2 { name: 'vinyl-sourcemaps-apply',
+200 silly addNameRange   range: '>=0.1.1-0 <0.2.0-0',
+200 silly addNameRange   hasData: true }
+201 silly addNameRange versions [ 'vinyl-sourcemaps-apply',
+201 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4' ] ]
+202 verbose addNamed [ 'vinyl-sourcemaps-apply', '0.1.4' ]
+203 verbose addNamed [ '0.1.4', '0.1.4' ]
+204 silly lockFile 98596f49-vinyl-sourcemaps-apply-0-1-4 vinyl-sourcemaps-apply@0.1.4
+205 verbose lock vinyl-sourcemaps-apply@0.1.4 /Users/jessie/.npm/98596f49-vinyl-sourcemaps-apply-0-1-4.lock
+206 silly lockFile 98596f49-vinyl-sourcemaps-apply-0-1-4 vinyl-sourcemaps-apply@0.1.4
+207 silly lockFile 98596f49-vinyl-sourcemaps-apply-0-1-4 vinyl-sourcemaps-apply@0.1.4
+208 silly lockFile c4377087-vinyl-sourcemaps-apply-0-1-1 vinyl-sourcemaps-apply@~0.1.1
+209 silly lockFile c4377087-vinyl-sourcemaps-apply-0-1-1 vinyl-sourcemaps-apply@~0.1.1
+210 http 200 https://registry.npmjs.org/node-sass
+211 silly registry.get cb [ 200,
+211 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+211 silly registry.get     etag: '"74QEOOY83U68585YHD3PMRH3A"',
+211 silly registry.get     'content-type': 'application/json',
+211 silly registry.get     'cache-control': 'max-age=60',
+211 silly registry.get     'content-length': '142528',
+211 silly registry.get     'accept-ranges': 'bytes',
+211 silly registry.get     date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+211 silly registry.get     via: '1.1 varnish',
+211 silly registry.get     age: '0',
+211 silly registry.get     connection: 'keep-alive',
+211 silly registry.get     'x-served-by': 'cache-ord1732-ORD',
+211 silly registry.get     'x-cache': 'HIT',
+211 silly registry.get     'x-cache-hits': '1',
+211 silly registry.get     'x-timer': 'S1441843024.192927,VS0,VE63',
+211 silly registry.get     vary: 'Accept' } ]
+212 silly addNameRange number 2 { name: 'node-sass', range: '>=3.0.0-0 <4.0.0-0', hasData: true }
+213 silly addNameRange versions [ 'node-sass',
+213 silly addNameRange   [ '0.2.0',
+213 silly addNameRange     '0.2.1',
+213 silly addNameRange     '0.2.2',
+213 silly addNameRange     '0.2.3',
+213 silly addNameRange     '0.2.4',
+213 silly addNameRange     '0.2.5',
+213 silly addNameRange     '0.2.6',
+213 silly addNameRange     '0.3.0',
+213 silly addNameRange     '0.4.0',
+213 silly addNameRange     '0.4.1',
+213 silly addNameRange     '0.4.2',
+213 silly addNameRange     '0.4.3',
+213 silly addNameRange     '0.4.4',
+213 silly addNameRange     '0.5.0',
+213 silly addNameRange     '0.5.1',
+213 silly addNameRange     '0.5.2',
+213 silly addNameRange     '0.5.3',
+213 silly addNameRange     '0.5.4',
+213 silly addNameRange     '0.6.0',
+213 silly addNameRange     '0.6.1',
+213 silly addNameRange     '0.6.2',
+213 silly addNameRange     '0.6.3',
+213 silly addNameRange     '0.6.4',
+213 silly addNameRange     '0.6.5',
+213 silly addNameRange     '0.6.6',
+213 silly addNameRange     '0.6.7',
+213 silly addNameRange     '0.7.0-alpha',
+213 silly addNameRange     '0.7.0',
+213 silly addNameRange     '0.8.0',
+213 silly addNameRange     '0.8.1',
+213 silly addNameRange     '0.8.2',
+213 silly addNameRange     '0.8.3',
+213 silly addNameRange     '0.8.4',
+213 silly addNameRange     '0.8.5',
+213 silly addNameRange     '0.8.6',
+213 silly addNameRange     '0.9.0',
+213 silly addNameRange     '0.9.1',
+213 silly addNameRange     '0.9.2',
+213 silly addNameRange     '0.9.3',
+213 silly addNameRange     '0.9.4-rc1',
+213 silly addNameRange     '0.9.4',
+213 silly addNameRange     '0.9.5-rc1',
+213 silly addNameRange     '0.9.5',
+213 silly addNameRange     '0.9.6',
+213 silly addNameRange     '1.0.0',
+213 silly addNameRange     '1.0.1',
+213 silly addNameRange     '1.0.2-alpha',
+213 silly addNameRange     '1.0.2',
+213 silly addNameRange     '1.0.3',
+213 silly addNameRange     '1.1.0',
+213 silly addNameRange     '1.1.1',
+213 silly addNameRange     '1.1.2',
+213 silly addNameRange     '1.1.3',
+213 silly addNameRange     '1.1.4',
+213 silly addNameRange     '1.2.0',
+213 silly addNameRange     '1.2.1',
+213 silly addNameRange     '1.2.2',
+213 silly addNameRange     '1.2.3',
+213 silly addNameRange     '2.0.0-beta',
+213 silly addNameRange     '2.0.0',
+213 silly addNameRange     '2.0.1',
+213 silly addNameRange     '3.0.0-alpha.0',
+213 silly addNameRange     '3.0.0-beta.2',
+213 silly addNameRange     '3.0.0-beta.3',
+213 silly addNameRange     '3.0.0-beta.4',
+213 silly addNameRange     '2.1.0',
+213 silly addNameRange     '2.1.1',
+213 silly addNameRange     '3.0.0-beta.5',
+213 silly addNameRange     '3.0.0-beta.7',
+213 silly addNameRange     '3.0.0',
+213 silly addNameRange     '3.1.0',
+213 silly addNameRange     '3.1.1',
+213 silly addNameRange     '3.1.2',
+213 silly addNameRange     '3.2.0',
+213 silly addNameRange     '3.3.0',
+213 silly addNameRange     '3.3.1',
+213 silly addNameRange     '3.3.2' ] ]
+214 verbose addNamed [ 'node-sass', '3.3.2' ]
+215 verbose addNamed [ '3.3.2', '3.3.2' ]
+216 silly lockFile 6545ea9c-node-sass-3-3-2 node-sass@3.3.2
+217 verbose lock node-sass@3.3.2 /Users/jessie/.npm/6545ea9c-node-sass-3-3-2.lock
+218 silly lockFile 8e82d6e4-rg-node-sass-node-sass-3-3-2-tgz https://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz
+219 verbose lock https://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz /Users/jessie/.npm/8e82d6e4-rg-node-sass-node-sass-3-3-2-tgz.lock
+220 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz',
+220 verbose addRemoteTarball   '2ce74e3fcd56c0c14eb2a9214af83f128d7fa54a' ]
+221 info retry fetch attempt 1 at 19:57:04
+222 verbose fetch to= /var/folders/r0/xh6msb991pj5__g3rq9lm9sr0000gn/T/npm-5699-_RIJ5dNw/registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz
+223 http GET https://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz
+224 http 200 https://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz
+225 silly lockFile 8e82d6e4-rg-node-sass-node-sass-3-3-2-tgz https://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz
+226 silly lockFile 8e82d6e4-rg-node-sass-node-sass-3-3-2-tgz https://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz
+227 silly lockFile 6545ea9c-node-sass-3-3-2 node-sass@3.3.2
+228 silly lockFile 6545ea9c-node-sass-3-3-2 node-sass@3.3.2
+229 silly lockFile 642a4649-node-sass-3-0-0 node-sass@^3.0.0
+230 silly lockFile 642a4649-node-sass-3-0-0 node-sass@^3.0.0
+231 silly resolved [ { name: 'gulp-util',
+231 silly resolved     description: 'Utility functions for gulp plugins',
+231 silly resolved     version: '3.0.6',
+231 silly resolved     repository:
+231 silly resolved      { type: 'git',
+231 silly resolved        url: 'git+https://github.com/wearefractal/gulp-util.git' },
+231 silly resolved     author:
+231 silly resolved      { name: 'Fractal',
+231 silly resolved        email: 'contact@wearefractal.com',
+231 silly resolved        url: 'http://wearefractal.com/' },
+231 silly resolved     files: [ 'index.js', 'lib' ],
+231 silly resolved     dependencies:
+231 silly resolved      { 'array-differ': '^1.0.0',
+231 silly resolved        'array-uniq': '^1.0.2',
+231 silly resolved        beeper: '^1.0.0',
+231 silly resolved        chalk: '^1.0.0',
+231 silly resolved        dateformat: '^1.0.11',
+231 silly resolved        'lodash._reescape': '^3.0.0',
+231 silly resolved        'lodash._reevaluate': '^3.0.0',
+231 silly resolved        'lodash._reinterpolate': '^3.0.0',
+231 silly resolved        'lodash.template': '^3.0.0',
+231 silly resolved        minimist: '^1.1.0',
+231 silly resolved        multipipe: '^0.1.2',
+231 silly resolved        'object-assign': '^3.0.0',
+231 silly resolved        'replace-ext': '0.0.1',
+231 silly resolved        through2: '^2.0.0',
+231 silly resolved        vinyl: '^0.5.0' },
+231 silly resolved     devDependencies:
+231 silly resolved      { 'buffer-equal': '^0.0.1',
+231 silly resolved        coveralls: '^2.11.2',
+231 silly resolved        'event-stream': '^3.1.7',
+231 silly resolved        istanbul: '^0.3.5',
+231 silly resolved        'istanbul-coveralls': '^1.0.1',
+231 silly resolved        jshint: '^2.5.11',
+231 silly resolved        'lodash.templatesettings': '^3.0.0',
+231 silly resolved        mocha: '^2.0.1',
+231 silly resolved        rimraf: '^2.2.8',
+231 silly resolved        should: '^7.0.1' },
+231 silly resolved     scripts:
+231 silly resolved      { test: 'jshint *.js lib/*.js test/*.js && mocha',
+231 silly resolved        coveralls: 'istanbul cover _mocha --report lcovonly && istanbul-coveralls' },
+231 silly resolved     engines: { node: '>=0.10' },
+231 silly resolved     license: 'MIT',
+231 silly resolved     gitHead: '7e1336eb03409c14e80368b0464bc7cd793326b4',
+231 silly resolved     bugs: { url: 'https://github.com/wearefractal/gulp-util/issues' },
+231 silly resolved     homepage: 'https://github.com/wearefractal/gulp-util#readme',
+231 silly resolved     _id: 'gulp-util@3.0.6',
+231 silly resolved     _shasum: 'a0b4e99edbf239c8609573e485999ddfc13e1e4a',
+231 silly resolved     _from: 'gulp-util@^3.0',
+231 silly resolved     _npmVersion: '2.10.0',
+231 silly resolved     _nodeVersion: '2.0.1',
+231 silly resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+231 silly resolved     maintainers: [ [Object], [Object] ],
+231 silly resolved     dist:
+231 silly resolved      { shasum: 'a0b4e99edbf239c8609573e485999ddfc13e1e4a',
+231 silly resolved        tarball: 'http://registry.npmjs.org/gulp-util/-/gulp-util-3.0.6.tgz' },
+231 silly resolved     directories: {},
+231 silly resolved     _resolved: 'https://registry.npmjs.org/gulp-util/-/gulp-util-3.0.6.tgz',
+231 silly resolved     readme: 'ERROR: No README data found!' },
+231 silly resolved   { name: 'object-assign',
+231 silly resolved     version: '2.1.1',
+231 silly resolved     description: 'ES6 Object.assign() ponyfill',
+231 silly resolved     license: 'MIT',
+231 silly resolved     repository:
+231 silly resolved      { type: 'git',
+231 silly resolved        url: 'https://github.com/sindresorhus/object-assign' },
+231 silly resolved     author:
+231 silly resolved      { name: 'Sindre Sorhus',
+231 silly resolved        email: 'sindresorhus@gmail.com',
+231 silly resolved        url: 'http://sindresorhus.com' },
+231 silly resolved     engines: { node: '>=0.10.0' },
+231 silly resolved     scripts: { test: 'mocha' },
+231 silly resolved     files: [ 'index.js' ],
+231 silly resolved     keywords:
+231 silly resolved      [ 'object',
+231 silly resolved        'assign',
+231 silly resolved        'extend',
+231 silly resolved        'properties',
+231 silly resolved        'es6',
+231 silly resolved        'ecmascript',
+231 silly resolved        'harmony',
+231 silly resolved        'ponyfill',
+231 silly resolved        'prollyfill',
+231 silly resolved        'polyfill',
+231 silly resolved        'shim',
+231 silly resolved        'browser' ],
+231 silly resolved     devDependencies: { mocha: '*' },
+231 silly resolved     gitHead: '4cd0365f5a78dd369473ca0bbd31f7b234148c42',
+231 silly resolved     bugs: { url: 'https://github.com/sindresorhus/object-assign/issues' },
+231 silly resolved     homepage: 'https://github.com/sindresorhus/object-assign',
+231 silly resolved     _id: 'object-assign@2.1.1',
+231 silly resolved     _shasum: '43c36e5d569ff8e4816c4efa8be02d26967c18aa',
+231 silly resolved     _from: 'object-assign@^2.0.0',
+231 silly resolved     _npmVersion: '2.10.1',
+231 silly resolved     _nodeVersion: '0.12.4',
+231 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+231 silly resolved     dist:
+231 silly resolved      { shasum: '43c36e5d569ff8e4816c4efa8be02d26967c18aa',
+231 silly resolved        tarball: 'http://registry.npmjs.org/object-assign/-/object-assign-2.1.1.tgz' },
+231 silly resolved     maintainers: [ [Object] ],
+231 silly resolved     directories: {},
+231 silly resolved     _resolved: 'https://registry.npmjs.org/object-assign/-/object-assign-2.1.1.tgz',
+231 silly resolved     readme: 'ERROR: No README data found!' },
+231 silly resolved   { name: 'through2',
+231 silly resolved     version: '0.6.5',
+231 silly resolved     description: 'A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise',
+231 silly resolved     main: 'through2.js',
+231 silly resolved     scripts:
+231 silly resolved      { test: 'node test/test.js',
+231 silly resolved        'test-local': 'brtapsauce-local test/basic-test.js' },
+231 silly resolved     repository: { type: 'git', url: 'https://github.com/rvagg/through2.git' },
+231 silly resolved     keywords: [ 'stream', 'streams2', 'through', 'transform' ],
+231 silly resolved     author:
+231 silly resolved      { name: 'Rod Vagg',
+231 silly resolved        email: 'r@va.gg',
+231 silly resolved        url: 'https://github.com/rvagg' },
+231 silly resolved     license: 'MIT',
+231 silly resolved     dependencies:
+231 silly resolved      { 'readable-stream': '>=1.0.33-1 <1.1.0-0',
+231 silly resolved        xtend: '>=4.0.0 <4.1.0-0' },
+231 silly resolved     devDependencies:
+231 silly resolved      { bl: '>=0.9.0 <0.10.0-0',
+231 silly resolved        'stream-spigot': '>=3.0.4 <3.1.0-0',
+231 silly resolved        tape: '>=2.14.0 <2.15.0-0' },
+231 silly resolved     gitHead: 'ba4a87875f2c82323c10023e36f4ae4b386c1bf8',
+231 silly resolved     bugs: { url: 'https://github.com/rvagg/through2/issues' },
+231 silly resolved     homepage: 'https://github.com/rvagg/through2',
+231 silly resolved     _id: 'through2@0.6.5',
+231 silly resolved     _shasum: '41ab9c67b29d57209071410e1d7a7a968cd3ad48',
+231 silly resolved     _from: 'through2@^0.6.3',
+231 silly resolved     _npmVersion: '1.4.28',
+231 silly resolved     _npmUser: { name: 'bryce', email: 'bryce@ravenwall.com' },
+231 silly resolved     maintainers: [ [Object], [Object] ],
+231 silly resolved     dist:
+231 silly resolved      { shasum: '41ab9c67b29d57209071410e1d7a7a968cd3ad48',
+231 silly resolved        tarball: 'http://registry.npmjs.org/through2/-/through2-0.6.5.tgz' },
+231 silly resolved     directories: {},
+231 silly resolved     _resolved: 'https://registry.npmjs.org/through2/-/through2-0.6.5.tgz',
+231 silly resolved     readme: 'ERROR: No README data found!' },
+231 silly resolved   { name: 'vinyl-sourcemaps-apply',
+231 silly resolved     version: '0.1.4',
+231 silly resolved     description: 'Apply a source map to a vinyl file, merging it with preexisting source maps',
+231 silly resolved     homepage: 'http://github.com/floridoo/vinyl-sourcemaps-apply',
+231 silly resolved     repository:
+231 silly resolved      { type: 'git',
+231 silly resolved        url: 'git://github.com/floridoo/vinyl-sourcemaps-apply.git' },
+231 silly resolved     main: 'index.js',
+231 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+231 silly resolved     keywords: [ 'vinyl', 'sourcemaps', 'source maps', 'gulp' ],
+231 silly resolved     author: { name: 'Florian Reiterer', email: 'me@florianreiterer.com' },
+231 silly resolved     license: 'ISC',
+231 silly resolved     dependencies: { 'source-map': '^0.1.39' },
+231 silly resolved     gitHead: '2fb0a54278255c138c76ddb651161440287c1261',
+231 silly resolved     bugs: { url: 'https://github.com/floridoo/vinyl-sourcemaps-apply/issues' },
+231 silly resolved     _id: 'vinyl-sourcemaps-apply@0.1.4',
+231 silly resolved     _shasum: 'c5fcbd43e2f238423c2dc98bddd6f79b72bc345b',
+231 silly resolved     _from: 'vinyl-sourcemaps-apply@~0.1.1',
+231 silly resolved     _npmVersion: '1.4.27',
+231 silly resolved     _npmUser: { name: 'floridoo', email: 'florian.reiterer@gmail.com' },
+231 silly resolved     maintainers: [ [Object] ],
+231 silly resolved     dist:
+231 silly resolved      { shasum: 'c5fcbd43e2f238423c2dc98bddd6f79b72bc345b',
+231 silly resolved        tarball: 'http://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.1.4.tgz' },
+231 silly resolved     directories: {},
+231 silly resolved     _resolved: 'https://registry.npmjs.org/vinyl-sourcemaps-apply/-/vinyl-sourcemaps-apply-0.1.4.tgz',
+231 silly resolved     readme: 'ERROR: No README data found!' },
+231 silly resolved   { name: 'node-sass',
+231 silly resolved     version: '3.3.2',
+231 silly resolved     libsass: '3.2.5',
+231 silly resolved     description: 'Wrapper around libsass',
+231 silly resolved     license: 'MIT',
+231 silly resolved     homepage: 'https://github.com/sass/node-sass',
+231 silly resolved     repository:
+231 silly resolved      { type: 'git',
+231 silly resolved        url: 'git+https://github.com/sass/node-sass.git' },
+231 silly resolved     author:
+231 silly resolved      { name: 'Andrew Nesbitt',
+231 silly resolved        email: 'andrewnez@gmail.com',
+231 silly resolved        url: 'http://andrew.github.com' },
+231 silly resolved     engines: { node: '>=0.10.0' },
+231 silly resolved     main: 'lib/index.js',
+231 silly resolved     nodeSassConfig: { binarySite: 'https://github.com/sass/node-sass/releases/download' },
+231 silly resolved     bin: { 'node-sass': 'bin/node-sass' },
+231 silly resolved     gypfile: true,
+231 silly resolved     scripts:
+231 silly resolved      { coverage: 'node scripts/coverage.js',
+231 silly resolved        install: 'node scripts/install.js',
+231 silly resolved        postinstall: 'node scripts/build.js',
+231 silly resolved        pretest: 'jshint bin lib scripts test',
+231 silly resolved        test: 'mocha test' },
+231 silly resolved     files: [ 'bin', 'binding.gyp', 'lib', 'scripts', 'src' ],
+231 silly resolved     keywords: [ 'css', 'libsass', 'preprocessor', 'sass', 'scss', 'style' ],
+231 silly resolved     dependencies:
+231 silly resolved      { 'async-foreach': '^0.1.3',
+231 silly resolved        chalk: '^1.1.1',
+231 silly resolved        gaze: '^0.5.1',
+231 silly resolved        'get-stdin': '^4.0.1',
+231 silly resolved        glob: '^5.0.14',
+231 silly resolved        meow: '^3.3.0',
+231 silly resolved        mkdirp: '^0.5.1',
+231 silly resolved        nan: '^2.0.8',
+231 silly resolved        npmconf: '^2.1.2',
+231 silly resolved        pangyp: '^2.3.0',
+231 silly resolved        request: '^2.61.0',
+231 silly resolved        'sass-graph': '^2.0.1' },
+231 silly resolved     devDependencies:
+231 silly resolved      { coveralls: '^2.11.4',
+231 silly resolved        'cross-spawn': '^2.0.0',
+231 silly resolved        istanbul: '^0.3.18',
+231 silly resolved        jshint: '^2.8.0',
+231 silly resolved        mocha: '^2.2.5',
+231 silly resolved        'mocha-lcov-reporter': '^0.0.2',
+231 silly resolved        rimraf: '^2.4.2' },
+231 silly resolved     gitHead: '7d416cda9d2d2b2317ce4a41a6460f4c5867f147',
+231 silly resolved     bugs: { url: 'https://github.com/sass/node-sass/issues' },
+231 silly resolved     _id: 'node-sass@3.3.2',
+231 silly resolved     _shasum: '2ce74e3fcd56c0c14eb2a9214af83f128d7fa54a',
+231 silly resolved     _from: 'node-sass@^3.0.0',
+231 silly resolved     _npmVersion: '2.13.1',
+231 silly resolved     _nodeVersion: '0.10.29',
+231 silly resolved     _npmUser: { name: 'xzyfer', email: 'xzyfer@gmail.com' },
+231 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+231 silly resolved     dist:
+231 silly resolved      { shasum: '2ce74e3fcd56c0c14eb2a9214af83f128d7fa54a',
+231 silly resolved        tarball: 'http://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz' },
+231 silly resolved     directories: {},
+231 silly resolved     _resolved: 'https://registry.npmjs.org/node-sass/-/node-sass-3.3.2.tgz' } ]
+232 info install gulp-util@3.0.6 into /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass
+233 info install object-assign@2.1.1 into /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass
+234 info install through2@0.6.5 into /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass
+235 info install vinyl-sourcemaps-apply@0.1.4 into /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass
+236 info install node-sass@3.3.2 into /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass
+237 info installOne gulp-util@3.0.6
+238 info installOne object-assign@2.1.1
+239 info installOne through2@0.6.5
+240 info installOne vinyl-sourcemaps-apply@0.1.4
+241 info installOne node-sass@3.3.2
+242 verbose node_modules/gulp-sass/node_modules/gulp-util unbuild
+243 verbose node_modules/gulp-sass/node_modules/object-assign unbuild
+244 verbose node_modules/gulp-sass/node_modules/through2 unbuild
+245 verbose node_modules/gulp-sass/node_modules/vinyl-sourcemaps-apply unbuild
+246 verbose tar unpack /Users/jessie/.npm/gulp-util/3.0.6/package.tgz
+247 silly lockFile 6c718c24-gulp-sass-node-modules-gulp-util tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/gulp-util
+248 verbose lock tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/gulp-util /Users/jessie/.npm/6c718c24-gulp-sass-node-modules-gulp-util.lock
+249 silly lockFile 155efe30--npm-gulp-util-3-0-6-package-tgz tar:///Users/jessie/.npm/gulp-util/3.0.6/package.tgz
+250 verbose lock tar:///Users/jessie/.npm/gulp-util/3.0.6/package.tgz /Users/jessie/.npm/155efe30--npm-gulp-util-3-0-6-package-tgz.lock
+251 verbose tar unpack /Users/jessie/.npm/object-assign/2.1.1/package.tgz
+252 silly lockFile e09cc31e--sass-node-modules-object-assign tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/object-assign
+253 verbose lock tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/object-assign /Users/jessie/.npm/e09cc31e--sass-node-modules-object-assign.lock
+254 silly lockFile 412fefd8--object-assign-2-1-1-package-tgz tar:///Users/jessie/.npm/object-assign/2.1.1/package.tgz
+255 verbose lock tar:///Users/jessie/.npm/object-assign/2.1.1/package.tgz /Users/jessie/.npm/412fefd8--object-assign-2-1-1-package-tgz.lock
+256 verbose tar unpack /Users/jessie/.npm/through2/0.6.5/package.tgz
+257 silly lockFile 60ce13e9--gulp-sass-node-modules-through2 tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2
+258 verbose lock tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2 /Users/jessie/.npm/60ce13e9--gulp-sass-node-modules-through2.lock
+259 silly lockFile cd613fe3-e-npm-through2-0-6-5-package-tgz tar:///Users/jessie/.npm/through2/0.6.5/package.tgz
+260 verbose lock tar:///Users/jessie/.npm/through2/0.6.5/package.tgz /Users/jessie/.npm/cd613fe3-e-npm-through2-0-6-5-package-tgz.lock
+261 verbose tar unpack /Users/jessie/.npm/vinyl-sourcemaps-apply/0.1.4/package.tgz
+262 silly lockFile f7cf311f-e-modules-vinyl-sourcemaps-apply tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/vinyl-sourcemaps-apply
+263 verbose lock tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/vinyl-sourcemaps-apply /Users/jessie/.npm/f7cf311f-e-modules-vinyl-sourcemaps-apply.lock
+264 silly lockFile 99b255b3-urcemaps-apply-0-1-4-package-tgz tar:///Users/jessie/.npm/vinyl-sourcemaps-apply/0.1.4/package.tgz
+265 verbose lock tar:///Users/jessie/.npm/vinyl-sourcemaps-apply/0.1.4/package.tgz /Users/jessie/.npm/99b255b3-urcemaps-apply-0-1-4-package-tgz.lock
+266 verbose node_modules/gulp-sass/node_modules/node-sass unbuild
+267 silly gunzTarPerm modes [ '755', '644' ]
+268 silly gunzTarPerm modes [ '755', '644' ]
+269 silly gunzTarPerm modes [ '755', '644' ]
+270 silly gunzTarPerm modes [ '755', '644' ]
+271 verbose tar unpack /Users/jessie/.npm/node-sass/3.3.2/package.tgz
+272 silly lockFile 146b5b82-gulp-sass-node-modules-node-sass tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/node-sass
+273 verbose lock tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/node-sass /Users/jessie/.npm/146b5b82-gulp-sass-node-modules-node-sass.lock
+274 silly lockFile a7d58e83--npm-node-sass-3-3-2-package-tgz tar:///Users/jessie/.npm/node-sass/3.3.2/package.tgz
+275 verbose lock tar:///Users/jessie/.npm/node-sass/3.3.2/package.tgz /Users/jessie/.npm/a7d58e83--npm-node-sass-3-3-2-package-tgz.lock
+276 silly gunzTarPerm modes [ '755', '644' ]
+277 silly gunzTarPerm extractEntry package.json
+278 silly gunzTarPerm extractEntry package.json
+279 silly gunzTarPerm extractEntry package.json
+280 silly gunzTarPerm extractEntry package.json
+281 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+282 silly gunzTarPerm extractEntry README.md
+283 silly gunzTarPerm extractEntry LICENSE
+284 silly gunzTarPerm extractEntry index.js
+285 silly gunzTarPerm extractEntry license
+286 silly gunzTarPerm extractEntry .npmignore
+287 silly gunzTarPerm extractEntry README.md
+288 silly gunzTarPerm extractEntry package.json
+289 silly gunzTarPerm extractEntry .npmignore
+290 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+291 silly gunzTarPerm extractEntry README.md
+292 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+293 silly gunzTarPerm extractEntry README.md
+294 silly gunzTarPerm extractEntry LICENSE
+295 silly gunzTarPerm extractEntry readme.md
+296 silly gunzTarPerm extractEntry index.js
+297 silly gunzTarPerm extractEntry .jshintrc
+298 silly gunzTarPerm extractEntry index.js
+299 silly gunzTarPerm extractEntry lib/PluginError.js
+300 silly gunzTarPerm extractEntry LICENSE
+301 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+302 silly gunzTarPerm extractEntry through2.js
+303 silly gunzTarPerm modified mode [ 'through2.js', 436, 420 ]
+304 silly gunzTarPerm extractEntry bin/node-sass
+305 silly gunzTarPerm extractEntry binding.gyp
+306 silly gunzTarPerm extractEntry lib/extensions.js
+307 silly gunzTarPerm extractEntry lib/buffer.js
+308 silly gunzTarPerm extractEntry lib/combine.js
+309 silly gunzTarPerm extractEntry lib/env.js
+310 silly gunzTarPerm extractEntry lib/isBuffer.js
+311 silly gunzTarPerm extractEntry lib/isNull.js
+312 silly gunzTarPerm extractEntry lib/isStream.js
+313 silly gunzTarPerm extractEntry lib/log.js
+314 silly gunzTarPerm extractEntry lib/noop.js
+315 silly gunzTarPerm extractEntry lib/template.js
+316 silly lockFile e09cc31e--sass-node-modules-object-assign tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/object-assign
+317 silly lockFile e09cc31e--sass-node-modules-object-assign tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/object-assign
+318 silly lockFile 412fefd8--object-assign-2-1-1-package-tgz tar:///Users/jessie/.npm/object-assign/2.1.1/package.tgz
+319 silly lockFile 412fefd8--object-assign-2-1-1-package-tgz tar:///Users/jessie/.npm/object-assign/2.1.1/package.tgz
+320 silly gunzTarPerm extractEntry lib/index.js
+321 info preinstall object-assign@2.1.1
+322 silly lockFile f7cf311f-e-modules-vinyl-sourcemaps-apply tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/vinyl-sourcemaps-apply
+323 silly lockFile f7cf311f-e-modules-vinyl-sourcemaps-apply tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/vinyl-sourcemaps-apply
+324 silly lockFile 99b255b3-urcemaps-apply-0-1-4-package-tgz tar:///Users/jessie/.npm/vinyl-sourcemaps-apply/0.1.4/package.tgz
+325 silly lockFile 99b255b3-urcemaps-apply-0-1-4-package-tgz tar:///Users/jessie/.npm/vinyl-sourcemaps-apply/0.1.4/package.tgz
+326 verbose readDependencies using package.json deps
+327 verbose readDependencies using package.json deps
+328 silly resolved []
+329 verbose about to build /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/object-assign
+330 info build /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/object-assign
+331 verbose linkStuff [ false,
+331 verbose linkStuff   false,
+331 verbose linkStuff   false,
+331 verbose linkStuff   '/Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules' ]
+332 info linkStuff object-assign@2.1.1
+333 info preinstall vinyl-sourcemaps-apply@0.1.4
+334 verbose linkBins object-assign@2.1.1
+335 verbose linkMans object-assign@2.1.1
+336 verbose rebuildBundles object-assign@2.1.1
+337 info install object-assign@2.1.1
+338 verbose readDependencies using package.json deps
+339 info postinstall object-assign@2.1.1
+340 verbose readDependencies using package.json deps
+341 verbose cache add [ 'source-map@^0.1.39', null ]
+342 verbose cache add name=undefined spec="source-map@^0.1.39" args=["source-map@^0.1.39",null]
+343 verbose parsed url { protocol: null,
+343 verbose parsed url   slashes: null,
+343 verbose parsed url   auth: null,
+343 verbose parsed url   host: null,
+343 verbose parsed url   port: null,
+343 verbose parsed url   hostname: null,
+343 verbose parsed url   hash: null,
+343 verbose parsed url   search: null,
+343 verbose parsed url   query: null,
+343 verbose parsed url   pathname: 'source-map@^0.1.39',
+343 verbose parsed url   path: 'source-map@^0.1.39',
+343 verbose parsed url   href: 'source-map@^0.1.39' }
+344 verbose cache add name="source-map" spec="^0.1.39" args=["source-map","^0.1.39"]
+345 verbose parsed url { protocol: null,
+345 verbose parsed url   slashes: null,
+345 verbose parsed url   auth: null,
+345 verbose parsed url   host: null,
+345 verbose parsed url   port: null,
+345 verbose parsed url   hostname: null,
+345 verbose parsed url   hash: null,
+345 verbose parsed url   search: null,
+345 verbose parsed url   query: null,
+345 verbose parsed url   pathname: '^0.1.39',
+345 verbose parsed url   path: '^0.1.39',
+345 verbose parsed url   href: '^0.1.39' }
+346 verbose addNamed [ 'source-map', '^0.1.39' ]
+347 verbose addNamed [ null, '>=0.1.39-0 <0.2.0-0' ]
+348 silly lockFile 4b0c62b5-source-map-0-1-39 source-map@^0.1.39
+349 verbose lock source-map@^0.1.39 /Users/jessie/.npm/4b0c62b5-source-map-0-1-39.lock
+350 silly addNameRange { name: 'source-map',
+350 silly addNameRange   range: '>=0.1.39-0 <0.2.0-0',
+350 silly addNameRange   hasData: false }
+351 silly gunzTarPerm extractEntry lib/render.js
+352 silly gunzTarPerm extractEntry scripts/build.js
+353 silly lockFile 60ce13e9--gulp-sass-node-modules-through2 tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2
+354 silly lockFile 60ce13e9--gulp-sass-node-modules-through2 tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2
+355 silly lockFile cd613fe3-e-npm-through2-0-6-5-package-tgz tar:///Users/jessie/.npm/through2/0.6.5/package.tgz
+356 silly lockFile cd613fe3-e-npm-through2-0-6-5-package-tgz tar:///Users/jessie/.npm/through2/0.6.5/package.tgz
+357 info preinstall through2@0.6.5
+358 silly gunzTarPerm extractEntry scripts/coverage.js
+359 silly gunzTarPerm extractEntry scripts/install.js
+360 verbose request where is /source-map
+361 verbose request registry https://registry.npmjs.org/
+362 verbose url raw /source-map
+363 verbose url resolving [ 'https://registry.npmjs.org/', './source-map' ]
+364 verbose url resolved https://registry.npmjs.org/source-map
+365 verbose request where is https://registry.npmjs.org/source-map
+366 info trying registry request attempt 1 at 19:57:04
+367 verbose etag "6ZSY7NSAIDGMZ60O4UY93UWH0"
+368 http GET https://registry.npmjs.org/source-map
+369 verbose readDependencies using package.json deps
+370 verbose readDependencies using package.json deps
+371 verbose cache add [ 'readable-stream@>=1.0.33-1 <1.1.0-0', null ]
+372 verbose cache add name=undefined spec="readable-stream@>=1.0.33-1 <1.1.0-0" args=["readable-stream@>=1.0.33-1 <1.1.0-0",null]
+373 verbose parsed url { protocol: null,
+373 verbose parsed url   slashes: null,
+373 verbose parsed url   auth: null,
+373 verbose parsed url   host: null,
+373 verbose parsed url   port: null,
+373 verbose parsed url   hostname: null,
+373 verbose parsed url   hash: null,
+373 verbose parsed url   search: null,
+373 verbose parsed url   query: null,
+373 verbose parsed url   pathname: 'readable-stream@%3E=1.0.33-1%20%3C1.1.0-0',
+373 verbose parsed url   path: 'readable-stream@%3E=1.0.33-1%20%3C1.1.0-0',
+373 verbose parsed url   href: 'readable-stream@%3E=1.0.33-1%20%3C1.1.0-0' }
+374 verbose cache add [ 'xtend@>=4.0.0 <4.1.0-0', null ]
+375 verbose cache add name=undefined spec="xtend@>=4.0.0 <4.1.0-0" args=["xtend@>=4.0.0 <4.1.0-0",null]
+376 verbose parsed url { protocol: null,
+376 verbose parsed url   slashes: null,
+376 verbose parsed url   auth: null,
+376 verbose parsed url   host: null,
+376 verbose parsed url   port: null,
+376 verbose parsed url   hostname: null,
+376 verbose parsed url   hash: null,
+376 verbose parsed url   search: null,
+376 verbose parsed url   query: null,
+376 verbose parsed url   pathname: 'xtend@%3E=4.0.0%20%3C4.1.0-0',
+376 verbose parsed url   path: 'xtend@%3E=4.0.0%20%3C4.1.0-0',
+376 verbose parsed url   href: 'xtend@%3E=4.0.0%20%3C4.1.0-0' }
+377 verbose cache add name="readable-stream" spec=">=1.0.33-1 <1.1.0-0" args=["readable-stream",">=1.0.33-1 <1.1.0-0"]
+378 verbose parsed url { protocol: null,
+378 verbose parsed url   slashes: null,
+378 verbose parsed url   auth: null,
+378 verbose parsed url   host: null,
+378 verbose parsed url   port: null,
+378 verbose parsed url   hostname: null,
+378 verbose parsed url   hash: null,
+378 verbose parsed url   search: null,
+378 verbose parsed url   query: null,
+378 verbose parsed url   pathname: '%3E=1.0.33-1%20%3C1.1.0-0',
+378 verbose parsed url   path: '%3E=1.0.33-1%20%3C1.1.0-0',
+378 verbose parsed url   href: '%3E=1.0.33-1%20%3C1.1.0-0' }
+379 verbose addNamed [ 'readable-stream', '>=1.0.33-1 <1.1.0-0' ]
+380 verbose addNamed [ null, '>=1.0.33-1 <1.1.0-0' ]
+381 silly lockFile 734832e1-readable-stream-1-0-33-1-1-1-0-0 readable-stream@>=1.0.33-1 <1.1.0-0
+382 verbose lock readable-stream@>=1.0.33-1 <1.1.0-0 /Users/jessie/.npm/734832e1-readable-stream-1-0-33-1-1-1-0-0.lock
+383 verbose cache add name="xtend" spec=">=4.0.0 <4.1.0-0" args=["xtend",">=4.0.0 <4.1.0-0"]
+384 verbose parsed url { protocol: null,
+384 verbose parsed url   slashes: null,
+384 verbose parsed url   auth: null,
+384 verbose parsed url   host: null,
+384 verbose parsed url   port: null,
+384 verbose parsed url   hostname: null,
+384 verbose parsed url   hash: null,
+384 verbose parsed url   search: null,
+384 verbose parsed url   query: null,
+384 verbose parsed url   pathname: '%3E=4.0.0%20%3C4.1.0-0',
+384 verbose parsed url   path: '%3E=4.0.0%20%3C4.1.0-0',
+384 verbose parsed url   href: '%3E=4.0.0%20%3C4.1.0-0' }
+385 verbose addNamed [ 'xtend', '>=4.0.0 <4.1.0-0' ]
+386 verbose addNamed [ null, '>=4.0.0 <4.1.0-0' ]
+387 silly lockFile 9928690d-xtend-4-0-0-4-1-0-0 xtend@>=4.0.0 <4.1.0-0
+388 verbose lock xtend@>=4.0.0 <4.1.0-0 /Users/jessie/.npm/9928690d-xtend-4-0-0-4-1-0-0.lock
+389 silly addNameRange { name: 'readable-stream',
+389 silly addNameRange   range: '>=1.0.33-1 <1.1.0-0',
+389 silly addNameRange   hasData: false }
+390 silly addNameRange { name: 'xtend', range: '>=4.0.0 <4.1.0-0', hasData: false }
+391 verbose request where is /readable-stream
+392 verbose request registry https://registry.npmjs.org/
+393 verbose url raw /readable-stream
+394 verbose url resolving [ 'https://registry.npmjs.org/', './readable-stream' ]
+395 verbose url resolved https://registry.npmjs.org/readable-stream
+396 verbose request where is https://registry.npmjs.org/readable-stream
+397 info trying registry request attempt 1 at 19:57:04
+398 verbose etag "ATS5UC3IPKWZK67IHNRTSSRTY"
+399 http GET https://registry.npmjs.org/readable-stream
+400 verbose request where is /xtend
+401 verbose request registry https://registry.npmjs.org/
+402 verbose url raw /xtend
+403 verbose url resolving [ 'https://registry.npmjs.org/', './xtend' ]
+404 verbose url resolved https://registry.npmjs.org/xtend
+405 verbose request where is https://registry.npmjs.org/xtend
+406 info trying registry request attempt 1 at 19:57:04
+407 verbose etag "144GHFNWHYKUBO35EOCM4S95T"
+408 http GET https://registry.npmjs.org/xtend
+409 silly gunzTarPerm extractEntry src/custom_importer_bridge.cpp
+410 silly gunzTarPerm extractEntry src/binding.cpp
+411 silly gunzTarPerm extractEntry src/create_string.cpp
+412 silly gunzTarPerm extractEntry src/create_string.h
+413 silly gunzTarPerm extractEntry src/custom_function_bridge.cpp
+414 silly gunzTarPerm extractEntry src/custom_function_bridge.h
+415 silly lockFile 6c718c24-gulp-sass-node-modules-gulp-util tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/gulp-util
+416 silly lockFile 6c718c24-gulp-sass-node-modules-gulp-util tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/gulp-util
+417 silly gunzTarPerm extractEntry src/callback_bridge.h
+418 silly gunzTarPerm extractEntry src/custom_importer_bridge.h
+419 silly lockFile 155efe30--npm-gulp-util-3-0-6-package-tgz tar:///Users/jessie/.npm/gulp-util/3.0.6/package.tgz
+420 silly lockFile 155efe30--npm-gulp-util-3-0-6-package-tgz tar:///Users/jessie/.npm/gulp-util/3.0.6/package.tgz
+421 info preinstall gulp-util@3.0.6
+422 verbose readDependencies using package.json deps
+423 verbose readDependencies using package.json deps
+424 silly gunzTarPerm extractEntry src/libsass/.npmignore
+425 silly gunzTarPerm extractEntry src/libsass/LICENSE
+426 verbose cache add [ 'array-differ@^1.0.0', null ]
+427 verbose cache add name=undefined spec="array-differ@^1.0.0" args=["array-differ@^1.0.0",null]
+428 verbose parsed url { protocol: null,
+428 verbose parsed url   slashes: null,
+428 verbose parsed url   auth: null,
+428 verbose parsed url   host: null,
+428 verbose parsed url   port: null,
+428 verbose parsed url   hostname: null,
+428 verbose parsed url   hash: null,
+428 verbose parsed url   search: null,
+428 verbose parsed url   query: null,
+428 verbose parsed url   pathname: 'array-differ@^1.0.0',
+428 verbose parsed url   path: 'array-differ@^1.0.0',
+428 verbose parsed url   href: 'array-differ@^1.0.0' }
+429 verbose cache add [ 'array-uniq@^1.0.2', null ]
+430 verbose cache add name=undefined spec="array-uniq@^1.0.2" args=["array-uniq@^1.0.2",null]
+431 verbose parsed url { protocol: null,
+431 verbose parsed url   slashes: null,
+431 verbose parsed url   auth: null,
+431 verbose parsed url   host: null,
+431 verbose parsed url   port: null,
+431 verbose parsed url   hostname: null,
+431 verbose parsed url   hash: null,
+431 verbose parsed url   search: null,
+431 verbose parsed url   query: null,
+431 verbose parsed url   pathname: 'array-uniq@^1.0.2',
+431 verbose parsed url   path: 'array-uniq@^1.0.2',
+431 verbose parsed url   href: 'array-uniq@^1.0.2' }
+432 verbose cache add name="array-differ" spec="^1.0.0" args=["array-differ","^1.0.0"]
+433 verbose parsed url { protocol: null,
+433 verbose parsed url   slashes: null,
+433 verbose parsed url   auth: null,
+433 verbose parsed url   host: null,
+433 verbose parsed url   port: null,
+433 verbose parsed url   hostname: null,
+433 verbose parsed url   hash: null,
+433 verbose parsed url   search: null,
+433 verbose parsed url   query: null,
+433 verbose parsed url   pathname: '^1.0.0',
+433 verbose parsed url   path: '^1.0.0',
+433 verbose parsed url   href: '^1.0.0' }
+434 verbose addNamed [ 'array-differ', '^1.0.0' ]
+435 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+436 silly lockFile cd9eefe7-array-differ-1-0-0 array-differ@^1.0.0
+437 verbose lock array-differ@^1.0.0 /Users/jessie/.npm/cd9eefe7-array-differ-1-0-0.lock
+438 verbose cache add name="array-uniq" spec="^1.0.2" args=["array-uniq","^1.0.2"]
+439 verbose parsed url { protocol: null,
+439 verbose parsed url   slashes: null,
+439 verbose parsed url   auth: null,
+439 verbose parsed url   host: null,
+439 verbose parsed url   port: null,
+439 verbose parsed url   hostname: null,
+439 verbose parsed url   hash: null,
+439 verbose parsed url   search: null,
+439 verbose parsed url   query: null,
+439 verbose parsed url   pathname: '^1.0.2',
+439 verbose parsed url   path: '^1.0.2',
+439 verbose parsed url   href: '^1.0.2' }
+440 verbose addNamed [ 'array-uniq', '^1.0.2' ]
+441 verbose addNamed [ null, '>=1.0.2-0 <2.0.0-0' ]
+442 silly lockFile cc1b9ee9-array-uniq-1-0-2 array-uniq@^1.0.2
+443 verbose lock array-uniq@^1.0.2 /Users/jessie/.npm/cc1b9ee9-array-uniq-1-0-2.lock
+444 verbose cache add [ 'beeper@^1.0.0', null ]
+445 verbose cache add name=undefined spec="beeper@^1.0.0" args=["beeper@^1.0.0",null]
+446 verbose parsed url { protocol: null,
+446 verbose parsed url   slashes: null,
+446 verbose parsed url   auth: null,
+446 verbose parsed url   host: null,
+446 verbose parsed url   port: null,
+446 verbose parsed url   hostname: null,
+446 verbose parsed url   hash: null,
+446 verbose parsed url   search: null,
+446 verbose parsed url   query: null,
+446 verbose parsed url   pathname: 'beeper@^1.0.0',
+446 verbose parsed url   path: 'beeper@^1.0.0',
+446 verbose parsed url   href: 'beeper@^1.0.0' }
+447 verbose cache add [ 'chalk@^1.0.0', null ]
+448 verbose cache add name=undefined spec="chalk@^1.0.0" args=["chalk@^1.0.0",null]
+449 verbose parsed url { protocol: null,
+449 verbose parsed url   slashes: null,
+449 verbose parsed url   auth: null,
+449 verbose parsed url   host: null,
+449 verbose parsed url   port: null,
+449 verbose parsed url   hostname: null,
+449 verbose parsed url   hash: null,
+449 verbose parsed url   search: null,
+449 verbose parsed url   query: null,
+449 verbose parsed url   pathname: 'chalk@^1.0.0',
+449 verbose parsed url   path: 'chalk@^1.0.0',
+449 verbose parsed url   href: 'chalk@^1.0.0' }
+450 verbose cache add name="beeper" spec="^1.0.0" args=["beeper","^1.0.0"]
+451 verbose parsed url { protocol: null,
+451 verbose parsed url   slashes: null,
+451 verbose parsed url   auth: null,
+451 verbose parsed url   host: null,
+451 verbose parsed url   port: null,
+451 verbose parsed url   hostname: null,
+451 verbose parsed url   hash: null,
+451 verbose parsed url   search: null,
+451 verbose parsed url   query: null,
+451 verbose parsed url   pathname: '^1.0.0',
+451 verbose parsed url   path: '^1.0.0',
+451 verbose parsed url   href: '^1.0.0' }
+452 verbose addNamed [ 'beeper', '^1.0.0' ]
+453 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+454 silly lockFile 3428f3bd-beeper-1-0-0 beeper@^1.0.0
+455 verbose lock beeper@^1.0.0 /Users/jessie/.npm/3428f3bd-beeper-1-0-0.lock
+456 verbose cache add name="chalk" spec="^1.0.0" args=["chalk","^1.0.0"]
+457 verbose parsed url { protocol: null,
+457 verbose parsed url   slashes: null,
+457 verbose parsed url   auth: null,
+457 verbose parsed url   host: null,
+457 verbose parsed url   port: null,
+457 verbose parsed url   hostname: null,
+457 verbose parsed url   hash: null,
+457 verbose parsed url   search: null,
+457 verbose parsed url   query: null,
+457 verbose parsed url   pathname: '^1.0.0',
+457 verbose parsed url   path: '^1.0.0',
+457 verbose parsed url   href: '^1.0.0' }
+458 verbose addNamed [ 'chalk', '^1.0.0' ]
+459 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+460 silly lockFile 2b6848f7-chalk-1-0-0 chalk@^1.0.0
+461 verbose lock chalk@^1.0.0 /Users/jessie/.npm/2b6848f7-chalk-1-0-0.lock
+462 verbose cache add [ 'dateformat@^1.0.11', null ]
+463 verbose cache add name=undefined spec="dateformat@^1.0.11" args=["dateformat@^1.0.11",null]
+464 verbose parsed url { protocol: null,
+464 verbose parsed url   slashes: null,
+464 verbose parsed url   auth: null,
+464 verbose parsed url   host: null,
+464 verbose parsed url   port: null,
+464 verbose parsed url   hostname: null,
+464 verbose parsed url   hash: null,
+464 verbose parsed url   search: null,
+464 verbose parsed url   query: null,
+464 verbose parsed url   pathname: 'dateformat@^1.0.11',
+464 verbose parsed url   path: 'dateformat@^1.0.11',
+464 verbose parsed url   href: 'dateformat@^1.0.11' }
+465 silly addNameRange { name: 'array-differ',
+465 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+465 silly addNameRange   hasData: false }
+466 silly addNameRange { name: 'array-uniq',
+466 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+466 silly addNameRange   hasData: false }
+467 verbose cache add name="dateformat" spec="^1.0.11" args=["dateformat","^1.0.11"]
+468 verbose parsed url { protocol: null,
+468 verbose parsed url   slashes: null,
+468 verbose parsed url   auth: null,
+468 verbose parsed url   host: null,
+468 verbose parsed url   port: null,
+468 verbose parsed url   hostname: null,
+468 verbose parsed url   hash: null,
+468 verbose parsed url   search: null,
+468 verbose parsed url   query: null,
+468 verbose parsed url   pathname: '^1.0.11',
+468 verbose parsed url   path: '^1.0.11',
+468 verbose parsed url   href: '^1.0.11' }
+469 verbose addNamed [ 'dateformat', '^1.0.11' ]
+470 verbose addNamed [ null, '>=1.0.11-0 <2.0.0-0' ]
+471 silly lockFile 518d1cf0-dateformat-1-0-11 dateformat@^1.0.11
+472 verbose lock dateformat@^1.0.11 /Users/jessie/.npm/518d1cf0-dateformat-1-0-11.lock
+473 verbose cache add [ 'lodash._reescape@^3.0.0', null ]
+474 verbose cache add name=undefined spec="lodash._reescape@^3.0.0" args=["lodash._reescape@^3.0.0",null]
+475 verbose parsed url { protocol: null,
+475 verbose parsed url   slashes: null,
+475 verbose parsed url   auth: null,
+475 verbose parsed url   host: null,
+475 verbose parsed url   port: null,
+475 verbose parsed url   hostname: null,
+475 verbose parsed url   hash: null,
+475 verbose parsed url   search: null,
+475 verbose parsed url   query: null,
+475 verbose parsed url   pathname: 'lodash._reescape@^3.0.0',
+475 verbose parsed url   path: 'lodash._reescape@^3.0.0',
+475 verbose parsed url   href: 'lodash._reescape@^3.0.0' }
+476 verbose cache add [ 'lodash._reevaluate@^3.0.0', null ]
+477 verbose cache add name=undefined spec="lodash._reevaluate@^3.0.0" args=["lodash._reevaluate@^3.0.0",null]
+478 verbose parsed url { protocol: null,
+478 verbose parsed url   slashes: null,
+478 verbose parsed url   auth: null,
+478 verbose parsed url   host: null,
+478 verbose parsed url   port: null,
+478 verbose parsed url   hostname: null,
+478 verbose parsed url   hash: null,
+478 verbose parsed url   search: null,
+478 verbose parsed url   query: null,
+478 verbose parsed url   pathname: 'lodash._reevaluate@^3.0.0',
+478 verbose parsed url   path: 'lodash._reevaluate@^3.0.0',
+478 verbose parsed url   href: 'lodash._reevaluate@^3.0.0' }
+479 verbose cache add [ 'lodash._reinterpolate@^3.0.0', null ]
+480 verbose cache add name=undefined spec="lodash._reinterpolate@^3.0.0" args=["lodash._reinterpolate@^3.0.0",null]
+481 verbose parsed url { protocol: null,
+481 verbose parsed url   slashes: null,
+481 verbose parsed url   auth: null,
+481 verbose parsed url   host: null,
+481 verbose parsed url   port: null,
+481 verbose parsed url   hostname: null,
+481 verbose parsed url   hash: null,
+481 verbose parsed url   search: null,
+481 verbose parsed url   query: null,
+481 verbose parsed url   pathname: 'lodash._reinterpolate@^3.0.0',
+481 verbose parsed url   path: 'lodash._reinterpolate@^3.0.0',
+481 verbose parsed url   href: 'lodash._reinterpolate@^3.0.0' }
+482 verbose cache add [ 'lodash.template@^3.0.0', null ]
+483 verbose cache add name=undefined spec="lodash.template@^3.0.0" args=["lodash.template@^3.0.0",null]
+484 verbose parsed url { protocol: null,
+484 verbose parsed url   slashes: null,
+484 verbose parsed url   auth: null,
+484 verbose parsed url   host: null,
+484 verbose parsed url   port: null,
+484 verbose parsed url   hostname: null,
+484 verbose parsed url   hash: null,
+484 verbose parsed url   search: null,
+484 verbose parsed url   query: null,
+484 verbose parsed url   pathname: 'lodash.template@^3.0.0',
+484 verbose parsed url   path: 'lodash.template@^3.0.0',
+484 verbose parsed url   href: 'lodash.template@^3.0.0' }
+485 verbose cache add [ 'minimist@^1.1.0', null ]
+486 verbose cache add name=undefined spec="minimist@^1.1.0" args=["minimist@^1.1.0",null]
+487 verbose parsed url { protocol: null,
+487 verbose parsed url   slashes: null,
+487 verbose parsed url   auth: null,
+487 verbose parsed url   host: null,
+487 verbose parsed url   port: null,
+487 verbose parsed url   hostname: null,
+487 verbose parsed url   hash: null,
+487 verbose parsed url   search: null,
+487 verbose parsed url   query: null,
+487 verbose parsed url   pathname: 'minimist@^1.1.0',
+487 verbose parsed url   path: 'minimist@^1.1.0',
+487 verbose parsed url   href: 'minimist@^1.1.0' }
+488 verbose cache add [ 'multipipe@^0.1.2', null ]
+489 verbose cache add name=undefined spec="multipipe@^0.1.2" args=["multipipe@^0.1.2",null]
+490 verbose parsed url { protocol: null,
+490 verbose parsed url   slashes: null,
+490 verbose parsed url   auth: null,
+490 verbose parsed url   host: null,
+490 verbose parsed url   port: null,
+490 verbose parsed url   hostname: null,
+490 verbose parsed url   hash: null,
+490 verbose parsed url   search: null,
+490 verbose parsed url   query: null,
+490 verbose parsed url   pathname: 'multipipe@^0.1.2',
+490 verbose parsed url   path: 'multipipe@^0.1.2',
+490 verbose parsed url   href: 'multipipe@^0.1.2' }
+491 verbose cache add [ 'object-assign@^3.0.0', null ]
+492 verbose cache add name=undefined spec="object-assign@^3.0.0" args=["object-assign@^3.0.0",null]
+493 verbose parsed url { protocol: null,
+493 verbose parsed url   slashes: null,
+493 verbose parsed url   auth: null,
+493 verbose parsed url   host: null,
+493 verbose parsed url   port: null,
+493 verbose parsed url   hostname: null,
+493 verbose parsed url   hash: null,
+493 verbose parsed url   search: null,
+493 verbose parsed url   query: null,
+493 verbose parsed url   pathname: 'object-assign@^3.0.0',
+493 verbose parsed url   path: 'object-assign@^3.0.0',
+493 verbose parsed url   href: 'object-assign@^3.0.0' }
+494 verbose cache add [ 'replace-ext@0.0.1', null ]
+495 verbose cache add name=undefined spec="replace-ext@0.0.1" args=["replace-ext@0.0.1",null]
+496 verbose parsed url { protocol: null,
+496 verbose parsed url   slashes: null,
+496 verbose parsed url   auth: null,
+496 verbose parsed url   host: null,
+496 verbose parsed url   port: null,
+496 verbose parsed url   hostname: null,
+496 verbose parsed url   hash: null,
+496 verbose parsed url   search: null,
+496 verbose parsed url   query: null,
+496 verbose parsed url   pathname: 'replace-ext@0.0.1',
+496 verbose parsed url   path: 'replace-ext@0.0.1',
+496 verbose parsed url   href: 'replace-ext@0.0.1' }
+497 verbose cache add [ 'through2@^2.0.0', null ]
+498 verbose cache add name=undefined spec="through2@^2.0.0" args=["through2@^2.0.0",null]
+499 verbose parsed url { protocol: null,
+499 verbose parsed url   slashes: null,
+499 verbose parsed url   auth: null,
+499 verbose parsed url   host: null,
+499 verbose parsed url   port: null,
+499 verbose parsed url   hostname: null,
+499 verbose parsed url   hash: null,
+499 verbose parsed url   search: null,
+499 verbose parsed url   query: null,
+499 verbose parsed url   pathname: 'through2@^2.0.0',
+499 verbose parsed url   path: 'through2@^2.0.0',
+499 verbose parsed url   href: 'through2@^2.0.0' }
+500 verbose cache add [ 'vinyl@^0.5.0', null ]
+501 verbose cache add name=undefined spec="vinyl@^0.5.0" args=["vinyl@^0.5.0",null]
+502 verbose parsed url { protocol: null,
+502 verbose parsed url   slashes: null,
+502 verbose parsed url   auth: null,
+502 verbose parsed url   host: null,
+502 verbose parsed url   port: null,
+502 verbose parsed url   hostname: null,
+502 verbose parsed url   hash: null,
+502 verbose parsed url   search: null,
+502 verbose parsed url   query: null,
+502 verbose parsed url   pathname: 'vinyl@^0.5.0',
+502 verbose parsed url   path: 'vinyl@^0.5.0',
+502 verbose parsed url   href: 'vinyl@^0.5.0' }
+503 silly addNameRange { name: 'beeper', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+504 silly addNameRange { name: 'chalk', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+505 verbose cache add name="lodash._reescape" spec="^3.0.0" args=["lodash._reescape","^3.0.0"]
+506 verbose parsed url { protocol: null,
+506 verbose parsed url   slashes: null,
+506 verbose parsed url   auth: null,
+506 verbose parsed url   host: null,
+506 verbose parsed url   port: null,
+506 verbose parsed url   hostname: null,
+506 verbose parsed url   hash: null,
+506 verbose parsed url   search: null,
+506 verbose parsed url   query: null,
+506 verbose parsed url   pathname: '^3.0.0',
+506 verbose parsed url   path: '^3.0.0',
+506 verbose parsed url   href: '^3.0.0' }
+507 verbose addNamed [ 'lodash._reescape', '^3.0.0' ]
+508 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+509 silly lockFile eab05b51-lodash-reescape-3-0-0 lodash._reescape@^3.0.0
+510 verbose lock lodash._reescape@^3.0.0 /Users/jessie/.npm/eab05b51-lodash-reescape-3-0-0.lock
+511 verbose cache add name="lodash._reevaluate" spec="^3.0.0" args=["lodash._reevaluate","^3.0.0"]
+512 verbose parsed url { protocol: null,
+512 verbose parsed url   slashes: null,
+512 verbose parsed url   auth: null,
+512 verbose parsed url   host: null,
+512 verbose parsed url   port: null,
+512 verbose parsed url   hostname: null,
+512 verbose parsed url   hash: null,
+512 verbose parsed url   search: null,
+512 verbose parsed url   query: null,
+512 verbose parsed url   pathname: '^3.0.0',
+512 verbose parsed url   path: '^3.0.0',
+512 verbose parsed url   href: '^3.0.0' }
+513 verbose addNamed [ 'lodash._reevaluate', '^3.0.0' ]
+514 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+515 silly lockFile 6aa4a47b-lodash-reevaluate-3-0-0 lodash._reevaluate@^3.0.0
+516 verbose lock lodash._reevaluate@^3.0.0 /Users/jessie/.npm/6aa4a47b-lodash-reevaluate-3-0-0.lock
+517 verbose cache add name="lodash._reinterpolate" spec="^3.0.0" args=["lodash._reinterpolate","^3.0.0"]
+518 verbose parsed url { protocol: null,
+518 verbose parsed url   slashes: null,
+518 verbose parsed url   auth: null,
+518 verbose parsed url   host: null,
+518 verbose parsed url   port: null,
+518 verbose parsed url   hostname: null,
+518 verbose parsed url   hash: null,
+518 verbose parsed url   search: null,
+518 verbose parsed url   query: null,
+518 verbose parsed url   pathname: '^3.0.0',
+518 verbose parsed url   path: '^3.0.0',
+518 verbose parsed url   href: '^3.0.0' }
+519 verbose addNamed [ 'lodash._reinterpolate', '^3.0.0' ]
+520 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+521 silly lockFile f138820e-lodash-reinterpolate-3-0-0 lodash._reinterpolate@^3.0.0
+522 verbose lock lodash._reinterpolate@^3.0.0 /Users/jessie/.npm/f138820e-lodash-reinterpolate-3-0-0.lock
+523 verbose cache add name="lodash.template" spec="^3.0.0" args=["lodash.template","^3.0.0"]
+524 verbose parsed url { protocol: null,
+524 verbose parsed url   slashes: null,
+524 verbose parsed url   auth: null,
+524 verbose parsed url   host: null,
+524 verbose parsed url   port: null,
+524 verbose parsed url   hostname: null,
+524 verbose parsed url   hash: null,
+524 verbose parsed url   search: null,
+524 verbose parsed url   query: null,
+524 verbose parsed url   pathname: '^3.0.0',
+524 verbose parsed url   path: '^3.0.0',
+524 verbose parsed url   href: '^3.0.0' }
+525 verbose addNamed [ 'lodash.template', '^3.0.0' ]
+526 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+527 silly lockFile b01467bd-lodash-template-3-0-0 lodash.template@^3.0.0
+528 verbose lock lodash.template@^3.0.0 /Users/jessie/.npm/b01467bd-lodash-template-3-0-0.lock
+529 verbose cache add name="minimist" spec="^1.1.0" args=["minimist","^1.1.0"]
+530 verbose parsed url { protocol: null,
+530 verbose parsed url   slashes: null,
+530 verbose parsed url   auth: null,
+530 verbose parsed url   host: null,
+530 verbose parsed url   port: null,
+530 verbose parsed url   hostname: null,
+530 verbose parsed url   hash: null,
+530 verbose parsed url   search: null,
+530 verbose parsed url   query: null,
+530 verbose parsed url   pathname: '^1.1.0',
+530 verbose parsed url   path: '^1.1.0',
+530 verbose parsed url   href: '^1.1.0' }
+531 verbose addNamed [ 'minimist', '^1.1.0' ]
+532 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+533 silly lockFile b7cda548-minimist-1-1-0 minimist@^1.1.0
+534 verbose lock minimist@^1.1.0 /Users/jessie/.npm/b7cda548-minimist-1-1-0.lock
+535 verbose cache add name="multipipe" spec="^0.1.2" args=["multipipe","^0.1.2"]
+536 verbose parsed url { protocol: null,
+536 verbose parsed url   slashes: null,
+536 verbose parsed url   auth: null,
+536 verbose parsed url   host: null,
+536 verbose parsed url   port: null,
+536 verbose parsed url   hostname: null,
+536 verbose parsed url   hash: null,
+536 verbose parsed url   search: null,
+536 verbose parsed url   query: null,
+536 verbose parsed url   pathname: '^0.1.2',
+536 verbose parsed url   path: '^0.1.2',
+536 verbose parsed url   href: '^0.1.2' }
+537 verbose addNamed [ 'multipipe', '^0.1.2' ]
+538 verbose addNamed [ null, '>=0.1.2-0 <0.2.0-0' ]
+539 silly lockFile 4748cb04-multipipe-0-1-2 multipipe@^0.1.2
+540 verbose lock multipipe@^0.1.2 /Users/jessie/.npm/4748cb04-multipipe-0-1-2.lock
+541 verbose cache add name="object-assign" spec="^3.0.0" args=["object-assign","^3.0.0"]
+542 verbose parsed url { protocol: null,
+542 verbose parsed url   slashes: null,
+542 verbose parsed url   auth: null,
+542 verbose parsed url   host: null,
+542 verbose parsed url   port: null,
+542 verbose parsed url   hostname: null,
+542 verbose parsed url   hash: null,
+542 verbose parsed url   search: null,
+542 verbose parsed url   query: null,
+542 verbose parsed url   pathname: '^3.0.0',
+542 verbose parsed url   path: '^3.0.0',
+542 verbose parsed url   href: '^3.0.0' }
+543 verbose addNamed [ 'object-assign', '^3.0.0' ]
+544 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+545 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+546 verbose lock object-assign@^3.0.0 /Users/jessie/.npm/2db6c36a-object-assign-3-0-0.lock
+547 verbose cache add name="replace-ext" spec="0.0.1" args=["replace-ext","0.0.1"]
+548 verbose parsed url { protocol: null,
+548 verbose parsed url   slashes: null,
+548 verbose parsed url   auth: null,
+548 verbose parsed url   host: null,
+548 verbose parsed url   port: null,
+548 verbose parsed url   hostname: null,
+548 verbose parsed url   hash: null,
+548 verbose parsed url   search: null,
+548 verbose parsed url   query: null,
+548 verbose parsed url   pathname: '0.0.1',
+548 verbose parsed url   path: '0.0.1',
+548 verbose parsed url   href: '0.0.1' }
+549 verbose addNamed [ 'replace-ext', '0.0.1' ]
+550 verbose addNamed [ '0.0.1', '0.0.1' ]
+551 silly lockFile f8a45387-replace-ext-0-0-1 replace-ext@0.0.1
+552 verbose lock replace-ext@0.0.1 /Users/jessie/.npm/f8a45387-replace-ext-0-0-1.lock
+553 verbose cache add name="through2" spec="^2.0.0" args=["through2","^2.0.0"]
+554 verbose parsed url { protocol: null,
+554 verbose parsed url   slashes: null,
+554 verbose parsed url   auth: null,
+554 verbose parsed url   host: null,
+554 verbose parsed url   port: null,
+554 verbose parsed url   hostname: null,
+554 verbose parsed url   hash: null,
+554 verbose parsed url   search: null,
+554 verbose parsed url   query: null,
+554 verbose parsed url   pathname: '^2.0.0',
+554 verbose parsed url   path: '^2.0.0',
+554 verbose parsed url   href: '^2.0.0' }
+555 verbose addNamed [ 'through2', '^2.0.0' ]
+556 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+557 silly lockFile 06b895c8-through2-2-0-0 through2@^2.0.0
+558 verbose lock through2@^2.0.0 /Users/jessie/.npm/06b895c8-through2-2-0-0.lock
+559 verbose cache add name="vinyl" spec="^0.5.0" args=["vinyl","^0.5.0"]
+560 verbose parsed url { protocol: null,
+560 verbose parsed url   slashes: null,
+560 verbose parsed url   auth: null,
+560 verbose parsed url   host: null,
+560 verbose parsed url   port: null,
+560 verbose parsed url   hostname: null,
+560 verbose parsed url   hash: null,
+560 verbose parsed url   search: null,
+560 verbose parsed url   query: null,
+560 verbose parsed url   pathname: '^0.5.0',
+560 verbose parsed url   path: '^0.5.0',
+560 verbose parsed url   href: '^0.5.0' }
+561 verbose addNamed [ 'vinyl', '^0.5.0' ]
+562 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+563 silly lockFile 4612f9db-vinyl-0-5-0 vinyl@^0.5.0
+564 verbose lock vinyl@^0.5.0 /Users/jessie/.npm/4612f9db-vinyl-0-5-0.lock
+565 silly addNameRange { name: 'dateformat',
+565 silly addNameRange   range: '>=1.0.11-0 <2.0.0-0',
+565 silly addNameRange   hasData: false }
+566 silly addNameRange { name: 'lodash._reescape',
+566 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+566 silly addNameRange   hasData: false }
+567 silly addNameRange { name: 'lodash._reevaluate',
+567 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+567 silly addNameRange   hasData: false }
+568 silly addNameRange { name: 'lodash._reinterpolate',
+568 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+568 silly addNameRange   hasData: false }
+569 silly addNameRange { name: 'lodash.template',
+569 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+569 silly addNameRange   hasData: false }
+570 silly addNameRange { name: 'minimist', range: '>=1.1.0-0 <2.0.0-0', hasData: false }
+571 silly addNameRange { name: 'multipipe',
+571 silly addNameRange   range: '>=0.1.2-0 <0.2.0-0',
+571 silly addNameRange   hasData: false }
+572 silly addNameRange { name: 'object-assign',
+572 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+572 silly addNameRange   hasData: false }
+573 silly addNameRange { name: 'through2', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+574 silly addNameRange { name: 'vinyl', range: '>=0.5.0-0 <0.6.0-0', hasData: false }
+575 verbose request where is /array-differ
+576 verbose request registry https://registry.npmjs.org/
+577 verbose url raw /array-differ
+578 verbose url resolving [ 'https://registry.npmjs.org/', './array-differ' ]
+579 verbose url resolved https://registry.npmjs.org/array-differ
+580 verbose request where is https://registry.npmjs.org/array-differ
+581 info trying registry request attempt 1 at 19:57:04
+582 verbose etag "CRIHKMBXNOZ5V6977RYWJQ8HW"
+583 http GET https://registry.npmjs.org/array-differ
+584 verbose request where is /array-uniq
+585 verbose request registry https://registry.npmjs.org/
+586 verbose url raw /array-uniq
+587 verbose url resolving [ 'https://registry.npmjs.org/', './array-uniq' ]
+588 verbose url resolved https://registry.npmjs.org/array-uniq
+589 verbose request where is https://registry.npmjs.org/array-uniq
+590 info trying registry request attempt 1 at 19:57:04
+591 verbose etag "8FUH1WVG4NKV8UD6HZO9VFU11"
+592 http GET https://registry.npmjs.org/array-uniq
+593 verbose request where is /chalk
+594 verbose request registry https://registry.npmjs.org/
+595 verbose url raw /chalk
+596 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+597 verbose url resolved https://registry.npmjs.org/chalk
+598 verbose request where is https://registry.npmjs.org/chalk
+599 info trying registry request attempt 1 at 19:57:04
+600 verbose etag "43V9COF8TUJ3KM4J3E1EUUHF1"
+601 http GET https://registry.npmjs.org/chalk
+602 verbose request where is /beeper
+603 verbose request registry https://registry.npmjs.org/
+604 verbose url raw /beeper
+605 verbose url resolving [ 'https://registry.npmjs.org/', './beeper' ]
+606 verbose url resolved https://registry.npmjs.org/beeper
+607 verbose request where is https://registry.npmjs.org/beeper
+608 info trying registry request attempt 1 at 19:57:04
+609 verbose etag "6SGMSWB5CZ73ONIMF5QNJYDTP"
+610 http GET https://registry.npmjs.org/beeper
+611 verbose request where is /dateformat
+612 verbose request registry https://registry.npmjs.org/
+613 verbose url raw /dateformat
+614 verbose url resolving [ 'https://registry.npmjs.org/', './dateformat' ]
+615 verbose url resolved https://registry.npmjs.org/dateformat
+616 verbose request where is https://registry.npmjs.org/dateformat
+617 info trying registry request attempt 1 at 19:57:04
+618 verbose etag "EIYR8LMI6Q4KI8FA3XMRSV6S4"
+619 http GET https://registry.npmjs.org/dateformat
+620 verbose request where is /lodash._reevaluate
+621 verbose request registry https://registry.npmjs.org/
+622 verbose url raw /lodash._reevaluate
+623 verbose url resolving [ 'https://registry.npmjs.org/', './lodash._reevaluate' ]
+624 verbose url resolved https://registry.npmjs.org/lodash._reevaluate
+625 verbose request where is https://registry.npmjs.org/lodash._reevaluate
+626 info trying registry request attempt 1 at 19:57:04
+627 verbose etag "32KIO6P3R4FBBTX9LGDDQQU49"
+628 http GET https://registry.npmjs.org/lodash._reevaluate
+629 verbose request where is /lodash._reescape
+630 verbose request registry https://registry.npmjs.org/
+631 verbose url raw /lodash._reescape
+632 verbose url resolving [ 'https://registry.npmjs.org/', './lodash._reescape' ]
+633 verbose url resolved https://registry.npmjs.org/lodash._reescape
+634 verbose request where is https://registry.npmjs.org/lodash._reescape
+635 info trying registry request attempt 1 at 19:57:04
+636 verbose etag "3QRIPBP2VJRQ5FK4SO6PVVFIL"
+637 http GET https://registry.npmjs.org/lodash._reescape
+638 verbose request where is /minimist
+639 verbose request registry https://registry.npmjs.org/
+640 verbose url raw /minimist
+641 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+642 verbose url resolved https://registry.npmjs.org/minimist
+643 verbose request where is https://registry.npmjs.org/minimist
+644 info trying registry request attempt 1 at 19:57:04
+645 verbose etag "AH2CHZE09L5BNLKFXI5O5EHNK"
+646 http GET https://registry.npmjs.org/minimist
+647 verbose registry.get https://registry.npmjs.org/object-assign not expired, no request
+648 silly addNameRange number 2 { name: 'object-assign',
+648 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+648 silly addNameRange   hasData: true }
+649 silly addNameRange versions [ 'object-assign',
+649 silly addNameRange   [ '0.1.0',
+649 silly addNameRange     '0.1.1',
+649 silly addNameRange     '0.1.2',
+649 silly addNameRange     '0.2.0',
+649 silly addNameRange     '0.2.1',
+649 silly addNameRange     '0.2.2',
+649 silly addNameRange     '0.3.0',
+649 silly addNameRange     '0.3.1',
+649 silly addNameRange     '0.4.0',
+649 silly addNameRange     '1.0.0',
+649 silly addNameRange     '2.0.0',
+649 silly addNameRange     '3.0.0',
+649 silly addNameRange     '2.1.1',
+649 silly addNameRange     '4.0.0',
+649 silly addNameRange     '4.0.1' ] ]
+650 verbose addNamed [ 'object-assign', '3.0.0' ]
+651 verbose addNamed [ '3.0.0', '3.0.0' ]
+652 silly lockFile eff4fa96-object-assign-3-0-0 object-assign@3.0.0
+653 verbose lock object-assign@3.0.0 /Users/jessie/.npm/eff4fa96-object-assign-3-0-0.lock
+654 verbose request where is /lodash._reinterpolate
+655 verbose request registry https://registry.npmjs.org/
+656 verbose url raw /lodash._reinterpolate
+657 verbose url resolving [ 'https://registry.npmjs.org/', './lodash._reinterpolate' ]
+658 verbose url resolved https://registry.npmjs.org/lodash._reinterpolate
+659 verbose request where is https://registry.npmjs.org/lodash._reinterpolate
+660 info trying registry request attempt 1 at 19:57:04
+661 verbose etag "7HJL4LVUMVT5PZA7WS20Q0OYK"
+662 http GET https://registry.npmjs.org/lodash._reinterpolate
+663 verbose request where is /multipipe
+664 verbose request registry https://registry.npmjs.org/
+665 verbose url raw /multipipe
+666 verbose url resolving [ 'https://registry.npmjs.org/', './multipipe' ]
+667 verbose url resolved https://registry.npmjs.org/multipipe
+668 verbose request where is https://registry.npmjs.org/multipipe
+669 info trying registry request attempt 1 at 19:57:04
+670 verbose etag "AXO074UI1OKA14GDLTZW99FDI"
+671 http GET https://registry.npmjs.org/multipipe
+672 verbose request where is /lodash.template
+673 verbose request registry https://registry.npmjs.org/
+674 verbose url raw /lodash.template
+675 verbose url resolving [ 'https://registry.npmjs.org/', './lodash.template' ]
+676 verbose url resolved https://registry.npmjs.org/lodash.template
+677 verbose request where is https://registry.npmjs.org/lodash.template
+678 info trying registry request attempt 1 at 19:57:04
+679 verbose etag "DXWQCFNELNW42Z1JFY0DZOBVN"
+680 http GET https://registry.npmjs.org/lodash.template
+681 verbose request where is /replace-ext
+682 verbose request registry https://registry.npmjs.org/
+683 verbose url raw /replace-ext
+684 verbose url resolving [ 'https://registry.npmjs.org/', './replace-ext' ]
+685 verbose url resolved https://registry.npmjs.org/replace-ext
+686 verbose request where is https://registry.npmjs.org/replace-ext
+687 info trying registry request attempt 1 at 19:57:04
+688 verbose etag "8WESKT806YJX3PNOIKCXR7C3N"
+689 http GET https://registry.npmjs.org/replace-ext
+690 verbose registry.get https://registry.npmjs.org/through2 not expired, no request
+691 silly addNameRange number 2 { name: 'through2', range: '>=2.0.0-0 <3.0.0-0', hasData: true }
+692 silly addNameRange versions [ 'through2',
+692 silly addNameRange   [ '0.0.0',
+692 silly addNameRange     '0.0.1',
+692 silly addNameRange     '0.0.2',
+692 silly addNameRange     '0.0.3',
+692 silly addNameRange     '0.0.4',
+692 silly addNameRange     '0.0.5',
+692 silly addNameRange     '0.1.0',
+692 silly addNameRange     '0.2.0',
+692 silly addNameRange     '0.2.1',
+692 silly addNameRange     '0.2.2',
+692 silly addNameRange     '0.2.3',
+692 silly addNameRange     '0.3.0',
+692 silly addNameRange     '0.4.0',
+692 silly addNameRange     '0.4.1',
+692 silly addNameRange     '1.0.0',
+692 silly addNameRange     '0.4.2',
+692 silly addNameRange     '0.5.0',
+692 silly addNameRange     '0.5.1',
+692 silly addNameRange     '0.6.0',
+692 silly addNameRange     '1.1.0',
+692 silly addNameRange     '0.6.1',
+692 silly addNameRange     '1.1.1',
+692 silly addNameRange     '0.6.2',
+692 silly addNameRange     '0.6.3',
+692 silly addNameRange     '0.6.4',
+692 silly addNameRange     '0.6.5',
+692 silly addNameRange     '2.0.0' ] ]
+693 verbose addNamed [ 'through2', '2.0.0' ]
+694 verbose addNamed [ '2.0.0', '2.0.0' ]
+695 silly lockFile 4bc8e55a-through2-2-0-0 through2@2.0.0
+696 verbose lock through2@2.0.0 /Users/jessie/.npm/4bc8e55a-through2-2-0-0.lock
+697 verbose request where is /vinyl
+698 verbose request registry https://registry.npmjs.org/
+699 verbose url raw /vinyl
+700 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl' ]
+701 verbose url resolved https://registry.npmjs.org/vinyl
+702 verbose request where is https://registry.npmjs.org/vinyl
+703 info trying registry request attempt 1 at 19:57:04
+704 verbose etag "6Q16WNP97R9NV9RAHRIH7QIJO"
+705 http GET https://registry.npmjs.org/vinyl
+706 silly gunzTarPerm extractEntry src/libsass/lexer.cpp
+707 silly gunzTarPerm extractEntry src/libsass/.travis.yml
+708 silly lockFile eff4fa96-object-assign-3-0-0 object-assign@3.0.0
+709 silly lockFile eff4fa96-object-assign-3-0-0 object-assign@3.0.0
+710 silly lockFile 4bc8e55a-through2-2-0-0 through2@2.0.0
+711 silly lockFile 4bc8e55a-through2-2-0-0 through2@2.0.0
+712 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+713 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+714 silly lockFile 06b895c8-through2-2-0-0 through2@^2.0.0
+715 silly lockFile 06b895c8-through2-2-0-0 through2@^2.0.0
+716 silly gunzTarPerm extractEntry src/libsass/COPYING
+717 silly gunzTarPerm extractEntry src/libsass/INSTALL
+718 silly gunzTarPerm extractEntry src/libsass/.editorconfig
+719 silly gunzTarPerm extractEntry src/libsass/Makefile
+720 silly gunzTarPerm extractEntry src/libsass/Makefile.am
+721 silly gunzTarPerm extractEntry src/libsass/Readme.md
+722 silly gunzTarPerm extractEntry src/libsass/SECURITY.md
+723 silly gunzTarPerm extractEntry src/libsass/appveyor.yml
+724 silly gunzTarPerm extractEntry src/libsass/ast.cpp
+725 silly gunzTarPerm extractEntry src/libsass/ast.hpp
+726 silly gunzTarPerm extractEntry src/libsass/ast_def_macros.hpp
+727 silly gunzTarPerm extractEntry src/libsass/ast_factory.hpp
+728 silly gunzTarPerm extractEntry src/libsass/ast_fwd_decl.hpp
+729 silly gunzTarPerm extractEntry src/libsass/b64/cencode.h
+730 silly gunzTarPerm extractEntry src/libsass/b64/encode.h
+731 silly gunzTarPerm extractEntry src/libsass/backtrace.hpp
+732 silly gunzTarPerm extractEntry src/libsass/base64vlq.cpp
+733 silly gunzTarPerm extractEntry src/libsass/base64vlq.hpp
+734 silly gunzTarPerm extractEntry src/libsass/bind.cpp
+735 silly gunzTarPerm extractEntry src/libsass/bind.hpp
+736 silly gunzTarPerm extractEntry src/libsass/cencode.c
+737 silly gunzTarPerm extractEntry src/libsass/color_names.hpp
+738 silly gunzTarPerm extractEntry src/libsass/configure.ac
+739 silly gunzTarPerm extractEntry src/libsass/constants.cpp
+740 silly gunzTarPerm extractEntry src/libsass/constants.hpp
+741 silly gunzTarPerm extractEntry src/libsass/context.cpp
+742 silly gunzTarPerm extractEntry src/libsass/context.hpp
+743 silly gunzTarPerm extractEntry src/libsass/contextualize.cpp
+744 silly gunzTarPerm extractEntry src/libsass/contextualize.hpp
+745 silly gunzTarPerm extractEntry src/libsass/contextualize_eval.cpp
+746 silly gunzTarPerm extractEntry src/libsass/contextualize_eval.hpp
+747 silly gunzTarPerm extractEntry src/libsass/contrib/libsass.spec
+748 silly gunzTarPerm extractEntry src/libsass/contrib/plugin.cpp
+749 silly gunzTarPerm extractEntry src/libsass/cssize.cpp
+750 silly gunzTarPerm extractEntry src/libsass/cssize.hpp
+751 silly gunzTarPerm extractEntry src/libsass/debug.hpp
+752 silly gunzTarPerm extractEntry src/libsass/debugger.hpp
+753 silly gunzTarPerm extractEntry src/libsass/emitter.cpp
+754 silly gunzTarPerm extractEntry src/libsass/emitter.hpp
+755 silly gunzTarPerm extractEntry src/libsass/environment.hpp
+756 silly gunzTarPerm extractEntry src/libsass/error_handling.cpp
+757 silly gunzTarPerm extractEntry src/libsass/error_handling.hpp
+758 silly gunzTarPerm extractEntry src/libsass/eval.cpp
+759 silly gunzTarPerm extractEntry src/libsass/eval.hpp
+760 silly gunzTarPerm extractEntry src/libsass/expand.cpp
+761 http 200 https://registry.npmjs.org/xtend
+762 silly registry.get cb [ 200,
+762 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+762 silly registry.get     etag: '"3NBQ9F63301NT5JVX0RYZBZG6"',
+762 silly registry.get     'content-type': 'application/json',
+762 silly registry.get     'cache-control': 'max-age=60',
+762 silly registry.get     'content-length': '19315',
+762 silly registry.get     'accept-ranges': 'bytes',
+762 silly registry.get     date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+762 silly registry.get     via: '1.1 varnish',
+762 silly registry.get     age: '42',
+762 silly registry.get     connection: 'keep-alive',
+762 silly registry.get     'x-served-by': 'cache-ord1725-ORD',
+762 silly registry.get     'x-cache': 'HIT',
+762 silly registry.get     'x-cache-hits': '2',
+762 silly registry.get     'x-timer': 'S1441843024.834740,VS0,VE0',
+762 silly registry.get     vary: 'Accept' } ]
+763 silly addNameRange number 2 { name: 'xtend', range: '>=4.0.0 <4.1.0-0', hasData: true }
+764 silly addNameRange versions [ 'xtend',
+764 silly addNameRange   [ '1.0.0',
+764 silly addNameRange     '1.0.1',
+764 silly addNameRange     '1.0.2',
+764 silly addNameRange     '1.0.3',
+764 silly addNameRange     '2.0.1',
+764 silly addNameRange     '2.0.2',
+764 silly addNameRange     '2.0.3',
+764 silly addNameRange     '2.0.4',
+764 silly addNameRange     '2.0.5',
+764 silly addNameRange     '2.0.6',
+764 silly addNameRange     '2.1.1',
+764 silly addNameRange     '2.1.2',
+764 silly addNameRange     '2.2.0',
+764 silly addNameRange     '3.0.0',
+764 silly addNameRange     '4.0.0' ] ]
+765 verbose addNamed [ 'xtend', '4.0.0' ]
+766 verbose addNamed [ '4.0.0', '4.0.0' ]
+767 silly lockFile cf5db8a8-xtend-4-0-0 xtend@4.0.0
+768 verbose lock xtend@4.0.0 /Users/jessie/.npm/cf5db8a8-xtend-4-0-0.lock
+769 silly gunzTarPerm extractEntry src/libsass/expand.hpp
+770 silly lockFile cf5db8a8-xtend-4-0-0 xtend@4.0.0
+771 silly lockFile cf5db8a8-xtend-4-0-0 xtend@4.0.0
+772 silly lockFile 9928690d-xtend-4-0-0-4-1-0-0 xtend@>=4.0.0 <4.1.0-0
+773 silly lockFile 9928690d-xtend-4-0-0-4-1-0-0 xtend@>=4.0.0 <4.1.0-0
+774 silly gunzTarPerm extractEntry src/libsass/extconf.rb
+775 silly gunzTarPerm extractEntry src/libsass/extend.cpp
+776 silly gunzTarPerm extractEntry src/libsass/extend.hpp
+777 silly gunzTarPerm extractEntry src/libsass/file.cpp
+778 silly gunzTarPerm extractEntry src/libsass/file.hpp
+779 silly gunzTarPerm extractEntry src/libsass/functions.cpp
+780 silly gunzTarPerm extractEntry src/libsass/functions.hpp
+781 silly gunzTarPerm extractEntry src/libsass/inspect.cpp
+782 silly gunzTarPerm extractEntry src/libsass/inspect.hpp
+783 silly gunzTarPerm extractEntry src/libsass/json.cpp
+784 silly gunzTarPerm extractEntry src/libsass/json.hpp
+785 silly gunzTarPerm extractEntry src/libsass/kwd_arg_macros.hpp
+786 silly gunzTarPerm extractEntry src/libsass/.gitattributes
+787 silly gunzTarPerm extractEntry src/libsass/lexer.hpp
+788 silly gunzTarPerm extractEntry src/libsass/listize.cpp
+789 silly gunzTarPerm extractEntry src/libsass/listize.hpp
+790 silly gunzTarPerm extractEntry src/libsass/m4/.gitkeep
+791 silly gunzTarPerm extractEntry src/libsass/mapping.hpp
+792 silly gunzTarPerm extractEntry src/libsass/memory_manager.hpp
+793 silly gunzTarPerm extractEntry src/libsass/node.cpp
+794 silly gunzTarPerm extractEntry src/libsass/node.hpp
+795 http 304 https://registry.npmjs.org/array-differ
+796 silly registry.get cb [ 304,
+796 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+796 silly registry.get     via: '1.1 varnish',
+796 silly registry.get     'cache-control': 'max-age=60',
+796 silly registry.get     etag: '"CRIHKMBXNOZ5V6977RYWJQ8HW"',
+796 silly registry.get     age: '3',
+796 silly registry.get     connection: 'keep-alive',
+796 silly registry.get     'x-served-by': 'cache-ord1732-ORD',
+796 silly registry.get     'x-cache': 'HIT',
+796 silly registry.get     'x-cache-hits': '1',
+796 silly registry.get     'x-timer': 'S1441843024.887239,VS0,VE0',
+796 silly registry.get     vary: 'Accept' } ]
+797 verbose etag https://registry.npmjs.org/array-differ from cache
+798 http 304 https://registry.npmjs.org/chalk
+799 silly registry.get cb [ 304,
+799 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+799 silly registry.get     via: '1.1 varnish',
+799 silly registry.get     'cache-control': 'max-age=60',
+799 silly registry.get     etag: '"43V9COF8TUJ3KM4J3E1EUUHF1"',
+799 silly registry.get     age: '44',
+799 silly registry.get     connection: 'keep-alive',
+799 silly registry.get     'x-served-by': 'cache-ord1725-ORD',
+799 silly registry.get     'x-cache': 'HIT',
+799 silly registry.get     'x-cache-hits': '1',
+799 silly registry.get     'x-timer': 'S1441843024.889265,VS0,VE0',
+799 silly registry.get     vary: 'Accept' } ]
+800 verbose etag https://registry.npmjs.org/chalk from cache
+801 http 304 https://registry.npmjs.org/array-uniq
+802 silly registry.get cb [ 304,
+802 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+802 silly registry.get     via: '1.1 varnish',
+802 silly registry.get     'cache-control': 'max-age=60',
+802 silly registry.get     etag: '"8FUH1WVG4NKV8UD6HZO9VFU11"',
+802 silly registry.get     age: '13',
+802 silly registry.get     connection: 'keep-alive',
+802 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+802 silly registry.get     'x-cache': 'HIT',
+802 silly registry.get     'x-cache-hits': '1',
+802 silly registry.get     'x-timer': 'S1441843024.890201,VS0,VE0',
+802 silly registry.get     vary: 'Accept' } ]
+803 verbose etag https://registry.npmjs.org/array-uniq from cache
+804 silly gunzTarPerm extractEntry src/libsass/operation.hpp
+805 silly gunzTarPerm extractEntry src/libsass/output.cpp
+806 silly addNameRange number 2 { name: 'chalk', range: '>=1.0.0-0 <2.0.0-0', hasData: true }
+807 silly addNameRange versions [ 'chalk',
+807 silly addNameRange   [ '0.1.0',
+807 silly addNameRange     '0.1.1',
+807 silly addNameRange     '0.2.0',
+807 silly addNameRange     '0.2.1',
+807 silly addNameRange     '0.3.0',
+807 silly addNameRange     '0.4.0',
+807 silly addNameRange     '0.5.0',
+807 silly addNameRange     '0.5.1',
+807 silly addNameRange     '1.0.0',
+807 silly addNameRange     '1.1.0',
+807 silly addNameRange     '1.1.1' ] ]
+808 verbose addNamed [ 'chalk', '1.1.1' ]
+809 verbose addNamed [ '1.1.1', '1.1.1' ]
+810 silly lockFile 5c79a874-chalk-1-1-1 chalk@1.1.1
+811 verbose lock chalk@1.1.1 /Users/jessie/.npm/5c79a874-chalk-1-1-1.lock
+812 silly addNameRange number 2 { name: 'array-uniq',
+812 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+812 silly addNameRange   hasData: true }
+813 silly addNameRange versions [ 'array-uniq',
+813 silly addNameRange   [ '0.1.0', '0.1.1', '1.0.0', '1.0.1', '1.0.2' ] ]
+814 verbose addNamed [ 'array-uniq', '1.0.2' ]
+815 verbose addNamed [ '1.0.2', '1.0.2' ]
+816 silly lockFile cab3926a-array-uniq-1-0-2 array-uniq@1.0.2
+817 verbose lock array-uniq@1.0.2 /Users/jessie/.npm/cab3926a-array-uniq-1-0-2.lock
+818 silly addNameRange number 2 { name: 'array-differ',
+818 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+818 silly addNameRange   hasData: true }
+819 silly addNameRange versions [ 'array-differ', [ '0.1.0', '1.0.0' ] ]
+820 verbose addNamed [ 'array-differ', '1.0.0' ]
+821 verbose addNamed [ '1.0.0', '1.0.0' ]
+822 silly lockFile ef3cad42-array-differ-1-0-0 array-differ@1.0.0
+823 verbose lock array-differ@1.0.0 /Users/jessie/.npm/ef3cad42-array-differ-1-0-0.lock
+824 silly gunzTarPerm extractEntry src/libsass/output.hpp
+825 silly gunzTarPerm extractEntry src/libsass/parser.cpp
+826 http 200 https://registry.npmjs.org/source-map
+827 silly registry.get cb [ 200,
+827 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+827 silly registry.get     etag: '"4ZBAY3ZVTEB4M6VDBBGGOIW0X"',
+827 silly registry.get     'content-type': 'application/json',
+827 silly registry.get     'cache-control': 'max-age=60',
+827 silly registry.get     'content-length': '119344',
+827 silly registry.get     'accept-ranges': 'bytes',
+827 silly registry.get     date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+827 silly registry.get     via: '1.1 varnish',
+827 silly registry.get     age: '30',
+827 silly registry.get     connection: 'keep-alive',
+827 silly registry.get     'x-served-by': 'cache-ord1725-ORD',
+827 silly registry.get     'x-cache': 'HIT',
+827 silly registry.get     'x-cache-hits': '8',
+827 silly registry.get     'x-timer': 'S1441843024.823654,VS0,VE0',
+827 silly registry.get     vary: 'Accept' } ]
+828 silly lockFile 5c79a874-chalk-1-1-1 chalk@1.1.1
+829 silly lockFile 5c79a874-chalk-1-1-1 chalk@1.1.1
+830 silly lockFile 2b6848f7-chalk-1-0-0 chalk@^1.0.0
+831 silly lockFile 2b6848f7-chalk-1-0-0 chalk@^1.0.0
+832 silly lockFile ef3cad42-array-differ-1-0-0 array-differ@1.0.0
+833 silly lockFile ef3cad42-array-differ-1-0-0 array-differ@1.0.0
+834 silly lockFile cd9eefe7-array-differ-1-0-0 array-differ@^1.0.0
+835 silly lockFile cd9eefe7-array-differ-1-0-0 array-differ@^1.0.0
+836 silly lockFile cab3926a-array-uniq-1-0-2 array-uniq@1.0.2
+837 silly lockFile cab3926a-array-uniq-1-0-2 array-uniq@1.0.2
+838 http 200 https://registry.npmjs.org/readable-stream
+839 silly registry.get cb [ 200,
+839 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+839 silly registry.get     etag: '"82TTSAI8QQG39EFUWDIODAL81"',
+839 silly registry.get     'content-type': 'application/json',
+839 silly registry.get     'cache-control': 'max-age=60',
+839 silly registry.get     'content-length': '47563',
+839 silly registry.get     'accept-ranges': 'bytes',
+839 silly registry.get     date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+839 silly registry.get     via: '1.1 varnish',
+839 silly registry.get     age: '4',
+839 silly registry.get     connection: 'keep-alive',
+839 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+839 silly registry.get     'x-cache': 'HIT',
+839 silly registry.get     'x-cache-hits': '1',
+839 silly registry.get     'x-timer': 'S1441843024.854248,VS0,VE0',
+839 silly registry.get     vary: 'Accept' } ]
+840 http 304 https://registry.npmjs.org/beeper
+841 silly registry.get cb [ 304,
+841 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+841 silly registry.get     via: '1.1 varnish',
+841 silly registry.get     'cache-control': 'max-age=60',
+841 silly registry.get     etag: '"6SGMSWB5CZ73ONIMF5QNJYDTP"',
+841 silly registry.get     age: '36',
+841 silly registry.get     connection: 'keep-alive',
+841 silly registry.get     'x-served-by': 'cache-ord1732-ORD',
+841 silly registry.get     'x-cache': 'HIT',
+841 silly registry.get     'x-cache-hits': '1',
+841 silly registry.get     'x-timer': 'S1441843024.920714,VS0,VE0',
+841 silly registry.get     vary: 'Accept' } ]
+842 verbose etag https://registry.npmjs.org/beeper from cache
+843 http 304 https://registry.npmjs.org/dateformat
+844 silly registry.get cb [ 304,
+844 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+844 silly registry.get     via: '1.1 varnish',
+844 silly registry.get     'cache-control': 'max-age=60',
+844 silly registry.get     etag: '"EIYR8LMI6Q4KI8FA3XMRSV6S4"',
+844 silly registry.get     age: '4',
+844 silly registry.get     connection: 'keep-alive',
+844 silly registry.get     'x-served-by': 'cache-ord1725-ORD',
+844 silly registry.get     'x-cache': 'HIT',
+844 silly registry.get     'x-cache-hits': '1',
+844 silly registry.get     'x-timer': 'S1441843024.921939,VS0,VE0',
+844 silly registry.get     vary: 'Accept' } ]
+845 verbose etag https://registry.npmjs.org/dateformat from cache
+846 http 304 https://registry.npmjs.org/lodash._reevaluate
+847 silly registry.get cb [ 304,
+847 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+847 silly registry.get     via: '1.1 varnish',
+847 silly registry.get     'cache-control': 'max-age=60',
+847 silly registry.get     etag: '"32KIO6P3R4FBBTX9LGDDQQU49"',
+847 silly registry.get     age: '55',
+847 silly registry.get     connection: 'keep-alive',
+847 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+847 silly registry.get     'x-cache': 'HIT',
+847 silly registry.get     'x-cache-hits': '1',
+847 silly registry.get     'x-timer': 'S1441843024.923507,VS0,VE0',
+847 silly registry.get     vary: 'Accept' } ]
+848 verbose etag https://registry.npmjs.org/lodash._reevaluate from cache
+849 silly lockFile cc1b9ee9-array-uniq-1-0-2 array-uniq@^1.0.2
+850 silly lockFile cc1b9ee9-array-uniq-1-0-2 array-uniq@^1.0.2
+851 silly addNameRange number 2 { name: 'source-map',
+851 silly addNameRange   range: '>=0.1.39-0 <0.2.0-0',
+851 silly addNameRange   hasData: true }
+852 silly addNameRange versions [ 'source-map',
+852 silly addNameRange   [ '0.0.0',
+852 silly addNameRange     '0.1.0',
+852 silly addNameRange     '0.1.1',
+852 silly addNameRange     '0.1.2',
+852 silly addNameRange     '0.1.3',
+852 silly addNameRange     '0.1.4',
+852 silly addNameRange     '0.1.5',
+852 silly addNameRange     '0.1.6',
+852 silly addNameRange     '0.1.7',
+852 silly addNameRange     '0.1.8',
+852 silly addNameRange     '0.1.9',
+852 silly addNameRange     '0.1.10',
+852 silly addNameRange     '0.1.11',
+852 silly addNameRange     '0.1.12',
+852 silly addNameRange     '0.1.13',
+852 silly addNameRange     '0.1.14',
+852 silly addNameRange     '0.1.15',
+852 silly addNameRange     '0.1.16',
+852 silly addNameRange     '0.1.17',
+852 silly addNameRange     '0.1.18',
+852 silly addNameRange     '0.1.19',
+852 silly addNameRange     '0.1.20',
+852 silly addNameRange     '0.1.21',
+852 silly addNameRange     '0.1.22',
+852 silly addNameRange     '0.1.23',
+852 silly addNameRange     '0.1.24',
+852 silly addNameRange     '0.1.25',
+852 silly addNameRange     '0.1.26',
+852 silly addNameRange     '0.1.27',
+852 silly addNameRange     '0.1.28',
+852 silly addNameRange     '0.1.29',
+852 silly addNameRange     '0.1.30',
+852 silly addNameRange     '0.1.31',
+852 silly addNameRange     '0.1.32',
+852 silly addNameRange     '0.1.33',
+852 silly addNameRange     '0.1.34',
+852 silly addNameRange     '0.1.35',
+852 silly addNameRange     '0.1.36',
+852 silly addNameRange     '0.1.37',
+852 silly addNameRange     '0.1.38',
+852 silly addNameRange     '0.1.39',
+852 silly addNameRange     '0.1.40',
+852 silly addNameRange     '0.1.41',
+852 silly addNameRange     '0.1.42',
+852 silly addNameRange     '0.1.43',
+852 silly addNameRange     '0.2.0',
+852 silly addNameRange     '0.3.0',
+852 silly addNameRange     '0.4.0',
+852 silly addNameRange     '0.4.1',
+852 silly addNameRange     '0.4.2',
+852 silly addNameRange     '0.4.3',
+852 silly addNameRange     '0.4.4' ] ]
+853 verbose addNamed [ 'source-map', '0.1.43' ]
+854 verbose addNamed [ '0.1.43', '0.1.43' ]
+855 silly lockFile 66477947-source-map-0-1-43 source-map@0.1.43
+856 verbose lock source-map@0.1.43 /Users/jessie/.npm/66477947-source-map-0-1-43.lock
+857 http 304 https://registry.npmjs.org/lodash._reescape
+858 silly registry.get cb [ 304,
+858 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+858 silly registry.get     via: '1.1 varnish',
+858 silly registry.get     'cache-control': 'max-age=60',
+858 silly registry.get     etag: '"3QRIPBP2VJRQ5FK4SO6PVVFIL"',
+858 silly registry.get     age: '55',
+858 silly registry.get     connection: 'keep-alive',
+858 silly registry.get     'x-served-by': 'cache-ord1725-ORD',
+858 silly registry.get     'x-cache': 'HIT',
+858 silly registry.get     'x-cache-hits': '1',
+858 silly registry.get     'x-timer': 'S1441843024.945696,VS0,VE0',
+858 silly registry.get     vary: 'Accept' } ]
+859 verbose etag https://registry.npmjs.org/lodash._reescape from cache
+860 silly addNameRange number 2 { name: 'readable-stream',
+860 silly addNameRange   range: '>=1.0.33-1 <1.1.0-0',
+860 silly addNameRange   hasData: true }
+861 silly addNameRange versions [ 'readable-stream',
+861 silly addNameRange   [ '0.0.1',
+861 silly addNameRange     '0.0.2',
+861 silly addNameRange     '0.0.3',
+861 silly addNameRange     '0.0.4',
+861 silly addNameRange     '0.1.0',
+861 silly addNameRange     '0.2.0',
+861 silly addNameRange     '0.3.0',
+861 silly addNameRange     '0.3.1',
+861 silly addNameRange     '1.0.0',
+861 silly addNameRange     '1.0.1',
+861 silly addNameRange     '1.0.2',
+861 silly addNameRange     '1.0.15',
+861 silly addNameRange     '1.0.17',
+861 silly addNameRange     '1.1.7',
+861 silly addNameRange     '1.1.8',
+861 silly addNameRange     '1.1.9',
+861 silly addNameRange     '1.0.24',
+861 silly addNameRange     '1.0.25',
+861 silly addNameRange     '1.1.10',
+861 silly addNameRange     '1.0.25-1',
+861 silly addNameRange     '1.1.11',
+861 silly addNameRange     '1.0.26',
+861 silly addNameRange     '1.0.26-1',
+861 silly addNameRange     '1.1.11-1',
+861 silly addNameRange     '1.0.26-2',
+861 silly addNameRange     '1.1.12',
+861 silly addNameRange     '1.0.26-3',
+861 silly addNameRange     '1.0.26-4',
+861 silly addNameRange     '1.1.12-1',
+861 silly addNameRange     '1.0.27-1',
+861 silly addNameRange     '1.1.13-1',
+861 silly addNameRange     '1.0.31',
+861 silly addNameRange     '1.1.13',
+861 silly addNameRange     '1.0.32',
+861 silly addNameRange     '1.0.32-1',
+861 silly addNameRange     '1.0.33-1',
+861 silly addNameRange     '1.0.33-2',
+861 silly addNameRange     '1.0.33',
+861 silly addNameRange     '2.0.0',
+861 silly addNameRange     '2.0.1',
+861 silly addNameRange     '2.0.2' ] ]
+862 verbose addNamed [ 'readable-stream', '1.0.33' ]
+863 verbose addNamed [ '1.0.33', '1.0.33' ]
+864 silly lockFile f026aa23-readable-stream-1-0-33 readable-stream@1.0.33
+865 verbose lock readable-stream@1.0.33 /Users/jessie/.npm/f026aa23-readable-stream-1-0-33.lock
+866 silly addNameRange number 2 { name: 'dateformat',
+866 silly addNameRange   range: '>=1.0.11-0 <2.0.0-0',
+866 silly addNameRange   hasData: true }
+867 silly addNameRange versions [ 'dateformat',
+867 silly addNameRange   [ '0.9.0-1.2.3',
+867 silly addNameRange     '1.0.0-1.2.3',
+867 silly addNameRange     '1.0.1-1.2.3',
+867 silly addNameRange     '1.0.2-1.2.3',
+867 silly addNameRange     '1.0.3-1.2.3',
+867 silly addNameRange     '1.0.4-1.2.3',
+867 silly addNameRange     '1.0.5-1.2.3',
+867 silly addNameRange     '1.0.6-1.2.3',
+867 silly addNameRange     '1.0.7-1.2.3',
+867 silly addNameRange     '1.0.8-1.2.3',
+867 silly addNameRange     '1.0.8',
+867 silly addNameRange     '1.0.9',
+867 silly addNameRange     '1.0.10',
+867 silly addNameRange     '1.0.11' ] ]
+868 verbose addNamed [ 'dateformat', '1.0.11' ]
+869 verbose addNamed [ '1.0.11', '1.0.11' ]
+870 silly lockFile 7acf1ef4-dateformat-1-0-11 dateformat@1.0.11
+871 verbose lock dateformat@1.0.11 /Users/jessie/.npm/7acf1ef4-dateformat-1-0-11.lock
+872 silly addNameRange number 2 { name: 'beeper', range: '>=1.0.0-0 <2.0.0-0', hasData: true }
+873 silly addNameRange versions [ 'beeper', [ '1.0.0', '1.1.0' ] ]
+874 verbose addNamed [ 'beeper', '1.1.0' ]
+875 verbose addNamed [ '1.1.0', '1.1.0' ]
+876 silly lockFile a3ae68f4-beeper-1-1-0 beeper@1.1.0
+877 verbose lock beeper@1.1.0 /Users/jessie/.npm/a3ae68f4-beeper-1-1-0.lock
+878 silly addNameRange number 2 { name: 'lodash._reevaluate',
+878 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+878 silly addNameRange   hasData: true }
+879 silly addNameRange versions [ 'lodash._reevaluate', [ '3.0.0' ] ]
+880 verbose addNamed [ 'lodash._reevaluate', '3.0.0' ]
+881 verbose addNamed [ '3.0.0', '3.0.0' ]
+882 silly lockFile 67a05770-lodash-reevaluate-3-0-0 lodash._reevaluate@3.0.0
+883 verbose lock lodash._reevaluate@3.0.0 /Users/jessie/.npm/67a05770-lodash-reevaluate-3-0-0.lock
+884 http 304 https://registry.npmjs.org/lodash._reinterpolate
+885 silly registry.get cb [ 304,
+885 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+885 silly registry.get     via: '1.1 varnish',
+885 silly registry.get     'cache-control': 'max-age=60',
+885 silly registry.get     etag: '"7HJL4LVUMVT5PZA7WS20Q0OYK"',
+885 silly registry.get     age: '1',
+885 silly registry.get     connection: 'keep-alive',
+885 silly registry.get     'x-served-by': 'cache-ord1732-ORD',
+885 silly registry.get     'x-cache': 'HIT',
+885 silly registry.get     'x-cache-hits': '1',
+885 silly registry.get     'x-timer': 'S1441843024.957531,VS0,VE0',
+885 silly registry.get     vary: 'Accept' } ]
+886 verbose etag https://registry.npmjs.org/lodash._reinterpolate from cache
+887 http 304 https://registry.npmjs.org/multipipe
+888 silly registry.get cb [ 304,
+888 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+888 silly registry.get     via: '1.1 varnish',
+888 silly registry.get     'cache-control': 'max-age=60',
+888 silly registry.get     etag: '"AXO074UI1OKA14GDLTZW99FDI"',
+888 silly registry.get     age: '36',
+888 silly registry.get     connection: 'keep-alive',
+888 silly registry.get     'x-served-by': 'cache-ord1725-ORD',
+888 silly registry.get     'x-cache': 'HIT',
+888 silly registry.get     'x-cache-hits': '1',
+888 silly registry.get     'x-timer': 'S1441843024.958586,VS0,VE0',
+888 silly registry.get     vary: 'Accept' } ]
+889 verbose etag https://registry.npmjs.org/multipipe from cache
+890 http 304 https://registry.npmjs.org/lodash.template
+891 silly registry.get cb [ 304,
+891 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+891 silly registry.get     via: '1.1 varnish',
+891 silly registry.get     'cache-control': 'max-age=60',
+891 silly registry.get     etag: '"DXWQCFNELNW42Z1JFY0DZOBVN"',
+891 silly registry.get     age: '36',
+891 silly registry.get     connection: 'keep-alive',
+891 silly registry.get     'x-served-by': 'cache-ord1729-ORD',
+891 silly registry.get     'x-cache': 'HIT',
+891 silly registry.get     'x-cache-hits': '1',
+891 silly registry.get     'x-timer': 'S1441843024.959288,VS0,VE0',
+891 silly registry.get     vary: 'Accept' } ]
+892 verbose etag https://registry.npmjs.org/lodash.template from cache
+893 http 304 https://registry.npmjs.org/minimist
+894 silly registry.get cb [ 304,
+894 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+894 silly registry.get     via: '1.1 varnish',
+894 silly registry.get     'cache-control': 'max-age=60',
+894 silly registry.get     etag: '"AH2CHZE09L5BNLKFXI5O5EHNK"',
+894 silly registry.get     age: '39',
+894 silly registry.get     connection: 'keep-alive',
+894 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+894 silly registry.get     'x-cache': 'HIT',
+894 silly registry.get     'x-cache-hits': '2',
+894 silly registry.get     'x-timer': 'S1441843024.960563,VS0,VE0',
+894 silly registry.get     vary: 'Accept' } ]
+895 verbose etag https://registry.npmjs.org/minimist from cache
+896 silly addNameRange number 2 { name: 'lodash._reescape',
+896 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+896 silly addNameRange   hasData: true }
+897 silly addNameRange versions [ 'lodash._reescape', [ '3.0.0' ] ]
+898 verbose addNamed [ 'lodash._reescape', '3.0.0' ]
+899 verbose addNamed [ '3.0.0', '3.0.0' ]
+900 silly lockFile 6a224a75-lodash-reescape-3-0-0 lodash._reescape@3.0.0
+901 verbose lock lodash._reescape@3.0.0 /Users/jessie/.npm/6a224a75-lodash-reescape-3-0-0.lock
+902 http 304 https://registry.npmjs.org/replace-ext
+903 silly registry.get cb [ 304,
+903 silly registry.get   { date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+903 silly registry.get     via: '1.1 varnish',
+903 silly registry.get     'cache-control': 'max-age=60',
+903 silly registry.get     etag: '"8WESKT806YJX3PNOIKCXR7C3N"',
+903 silly registry.get     age: '45',
+903 silly registry.get     connection: 'keep-alive',
+903 silly registry.get     'x-served-by': 'cache-ord1725-ORD',
+903 silly registry.get     'x-cache': 'HIT',
+903 silly registry.get     'x-cache-hits': '1',
+903 silly registry.get     'x-timer': 'S1441843024.974283,VS0,VE0',
+903 silly registry.get     vary: 'Accept' } ]
+904 verbose etag https://registry.npmjs.org/replace-ext from cache
+905 silly lockFile 66477947-source-map-0-1-43 source-map@0.1.43
+906 silly lockFile 66477947-source-map-0-1-43 source-map@0.1.43
+907 silly addNameRange number 2 { name: 'lodash._reinterpolate',
+907 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+907 silly addNameRange   hasData: true }
+908 silly addNameRange versions [ 'lodash._reinterpolate',
+908 silly addNameRange   [ '2.0.0',
+908 silly addNameRange     '2.1.0',
+908 silly addNameRange     '2.2.0',
+908 silly addNameRange     '2.2.1',
+908 silly addNameRange     '2.3.0',
+908 silly addNameRange     '2.4.0',
+908 silly addNameRange     '2.4.1',
+908 silly addNameRange     '3.0.0' ] ]
+909 verbose addNamed [ 'lodash._reinterpolate', '3.0.0' ]
+910 verbose addNamed [ '3.0.0', '3.0.0' ]
+911 silly lockFile 2ffb81fc-lodash-reinterpolate-3-0-0 lodash._reinterpolate@3.0.0
+912 verbose lock lodash._reinterpolate@3.0.0 /Users/jessie/.npm/2ffb81fc-lodash-reinterpolate-3-0-0.lock
+913 silly addNameRange number 2 { name: 'multipipe', range: '>=0.1.2-0 <0.2.0-0', hasData: true }
+914 silly addNameRange versions [ 'multipipe',
+914 silly addNameRange   [ '0.0.0', '0.0.1', '0.0.2', '0.1.0', '0.1.1', '0.1.2' ] ]
+915 verbose addNamed [ 'multipipe', '0.1.2' ]
+916 verbose addNamed [ '0.1.2', '0.1.2' ]
+917 silly lockFile d011d338-multipipe-0-1-2 multipipe@0.1.2
+918 verbose lock multipipe@0.1.2 /Users/jessie/.npm/d011d338-multipipe-0-1-2.lock
+919 silly addNameRange number 2 { name: 'lodash.template',
+919 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+919 silly addNameRange   hasData: true }
+920 silly addNameRange versions [ 'lodash.template',
+920 silly addNameRange   [ '2.0.0',
+920 silly addNameRange     '2.1.0',
+920 silly addNameRange     '2.2.0',
+920 silly addNameRange     '2.2.1',
+920 silly addNameRange     '2.3.0',
+920 silly addNameRange     '2.4.0',
+920 silly addNameRange     '2.4.1',
+920 silly addNameRange     '3.0.0',
+920 silly addNameRange     '3.0.1',
+920 silly addNameRange     '3.1.0',
+920 silly addNameRange     '3.2.0',
+920 silly addNameRange     '3.3.0',
+920 silly addNameRange     '3.3.1',
+920 silly addNameRange     '3.3.2',
+920 silly addNameRange     '3.4.0',
+920 silly addNameRange     '3.5.0',
+920 silly addNameRange     '3.5.1',
+920 silly addNameRange     '3.6.0',
+920 silly addNameRange     '3.6.1',
+920 silly addNameRange     '3.6.2' ] ]
+921 verbose addNamed [ 'lodash.template', '3.6.2' ]
+922 verbose addNamed [ '3.6.2', '3.6.2' ]
+923 silly lockFile 02abd1ff-lodash-template-3-6-2 lodash.template@3.6.2
+924 verbose lock lodash.template@3.6.2 /Users/jessie/.npm/02abd1ff-lodash-template-3-6-2.lock
+925 silly lockFile 4b0c62b5-source-map-0-1-39 source-map@^0.1.39
+926 silly lockFile 4b0c62b5-source-map-0-1-39 source-map@^0.1.39
+927 silly addNameRange number 2 { name: 'minimist', range: '>=1.1.0-0 <2.0.0-0', hasData: true }
+928 silly addNameRange versions [ 'minimist',
+928 silly addNameRange   [ '0.0.0',
+928 silly addNameRange     '0.0.1',
+928 silly addNameRange     '0.0.2',
+928 silly addNameRange     '0.0.3',
+928 silly addNameRange     '0.0.4',
+928 silly addNameRange     '0.0.5',
+928 silly addNameRange     '0.0.6',
+928 silly addNameRange     '0.0.7',
+928 silly addNameRange     '0.0.8',
+928 silly addNameRange     '0.0.9',
+928 silly addNameRange     '0.0.10',
+928 silly addNameRange     '0.1.0',
+928 silly addNameRange     '0.2.0',
+928 silly addNameRange     '1.0.0',
+928 silly addNameRange     '1.1.0',
+928 silly addNameRange     '1.1.1',
+928 silly addNameRange     '1.1.2',
+928 silly addNameRange     '1.1.3',
+928 silly addNameRange     '1.2.0' ] ]
+929 verbose addNamed [ 'minimist', '1.2.0' ]
+930 verbose addNamed [ '1.2.0', '1.2.0' ]
+931 silly lockFile 36eb7fe6-minimist-1-2-0 minimist@1.2.0
+932 verbose lock minimist@1.2.0 /Users/jessie/.npm/36eb7fe6-minimist-1-2-0.lock
+933 silly lockFile f026aa23-readable-stream-1-0-33 readable-stream@1.0.33
+934 silly lockFile f026aa23-readable-stream-1-0-33 readable-stream@1.0.33
+935 silly lockFile a3ae68f4-beeper-1-1-0 beeper@1.1.0
+936 silly lockFile a3ae68f4-beeper-1-1-0 beeper@1.1.0
+937 silly lockFile 7acf1ef4-dateformat-1-0-11 dateformat@1.0.11
+938 silly lockFile 7acf1ef4-dateformat-1-0-11 dateformat@1.0.11
+939 silly lockFile 67a05770-lodash-reevaluate-3-0-0 lodash._reevaluate@3.0.0
+940 silly lockFile 67a05770-lodash-reevaluate-3-0-0 lodash._reevaluate@3.0.0
+941 silly lockFile 734832e1-readable-stream-1-0-33-1-1-1-0-0 readable-stream@>=1.0.33-1 <1.1.0-0
+942 silly lockFile 734832e1-readable-stream-1-0-33-1-1-1-0-0 readable-stream@>=1.0.33-1 <1.1.0-0
+943 silly lockFile 3428f3bd-beeper-1-0-0 beeper@^1.0.0
+944 silly lockFile 3428f3bd-beeper-1-0-0 beeper@^1.0.0
+945 silly lockFile 518d1cf0-dateformat-1-0-11 dateformat@^1.0.11
+946 silly lockFile 518d1cf0-dateformat-1-0-11 dateformat@^1.0.11
+947 silly lockFile 6aa4a47b-lodash-reevaluate-3-0-0 lodash._reevaluate@^3.0.0
+948 silly lockFile 6aa4a47b-lodash-reevaluate-3-0-0 lodash._reevaluate@^3.0.0
+949 silly lockFile 78180fbc--org-minimist-minimist-1-2-0-tgz https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz
+950 verbose lock https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz /Users/jessie/.npm/78180fbc--org-minimist-minimist-1-2-0-tgz.lock
+951 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz',
+951 verbose addRemoteTarball   'a35008b20f41383eec1fb914f4cd5df79a264284' ]
+952 silly lockFile 6a224a75-lodash-reescape-3-0-0 lodash._reescape@3.0.0
+953 silly lockFile 6a224a75-lodash-reescape-3-0-0 lodash._reescape@3.0.0
+954 silly lockFile eab05b51-lodash-reescape-3-0-0 lodash._reescape@^3.0.0
+955 silly lockFile eab05b51-lodash-reescape-3-0-0 lodash._reescape@^3.0.0
+956 silly gunzTarPerm extractEntry src/libsass/parser.hpp
+957 silly gunzTarPerm extractEntry src/libsass/paths.hpp
+958 silly lockFile 2ffb81fc-lodash-reinterpolate-3-0-0 lodash._reinterpolate@3.0.0
+959 silly lockFile 2ffb81fc-lodash-reinterpolate-3-0-0 lodash._reinterpolate@3.0.0
+960 silly lockFile d011d338-multipipe-0-1-2 multipipe@0.1.2
+961 silly lockFile d011d338-multipipe-0-1-2 multipipe@0.1.2
+962 info retry fetch attempt 1 at 19:57:05
+963 verbose fetch to= /var/folders/r0/xh6msb991pj5__g3rq9lm9sr0000gn/T/npm-5699-_RIJ5dNw/registry.npmjs.org/minimist/-/minimist-1.2.0.tgz
+964 silly lockFile 02abd1ff-lodash-template-3-6-2 lodash.template@3.6.2
+965 silly lockFile 02abd1ff-lodash-template-3-6-2 lodash.template@3.6.2
+966 silly lockFile f138820e-lodash-reinterpolate-3-0-0 lodash._reinterpolate@^3.0.0
+967 silly lockFile f138820e-lodash-reinterpolate-3-0-0 lodash._reinterpolate@^3.0.0
+968 silly lockFile 4748cb04-multipipe-0-1-2 multipipe@^0.1.2
+969 silly lockFile 4748cb04-multipipe-0-1-2 multipipe@^0.1.2
+970 silly lockFile b01467bd-lodash-template-3-0-0 lodash.template@^3.0.0
+971 silly lockFile b01467bd-lodash-template-3-0-0 lodash.template@^3.0.0
+972 http GET https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz
+973 silly resolved [ { name: 'source-map',
+973 silly resolved     description: 'Generates and consumes source maps',
+973 silly resolved     version: '0.1.43',
+973 silly resolved     homepage: 'https://github.com/mozilla/source-map',
+973 silly resolved     author: { name: 'Nick Fitzgerald', email: 'nfitzgerald@mozilla.com' },
+973 silly resolved     contributors:
+973 silly resolved      [ [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object],
+973 silly resolved        [Object] ],
+973 silly resolved     repository: { type: 'git', url: 'http://github.com/mozilla/source-map.git' },
+973 silly resolved     directories: { lib: './lib' },
+973 silly resolved     main: './lib/source-map.js',
+973 silly resolved     engines: { node: '>=0.8.0' },
+973 silly resolved     licenses: [ [Object] ],
+973 silly resolved     dependencies: { amdefine: '>=0.0.4' },
+973 silly resolved     devDependencies: { dryice: '>=0.4.8' },
+973 silly resolved     scripts:
+973 silly resolved      { test: 'node test/run-tests.js',
+973 silly resolved        build: 'node Makefile.dryice.js' },
+973 silly resolved     bugs: { url: 'https://github.com/mozilla/source-map/issues' },
+973 silly resolved     _id: 'source-map@0.1.43',
+973 silly resolved     _shasum: 'c24bc146ca517c1471f5dacbe2571b2b7f9e3346',
+973 silly resolved     _from: 'source-map@^0.1.39',
+973 silly resolved     _npmVersion: '1.4.9',
+973 silly resolved     _npmUser: { name: 'nickfitzgerald', email: 'fitzgen@gmail.com' },
+973 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+973 silly resolved     dist:
+973 silly resolved      { shasum: 'c24bc146ca517c1471f5dacbe2571b2b7f9e3346',
+973 silly resolved        tarball: 'http://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz' },
+973 silly resolved     _resolved: 'https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz',
+973 silly resolved     readme: 'ERROR: No README data found!' } ]
+974 info install source-map@0.1.43 into /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/vinyl-sourcemaps-apply
+975 info installOne source-map@0.1.43
+976 silly resolved [ { name: 'xtend',
+976 silly resolved     version: '4.0.0',
+976 silly resolved     description: 'extend like a boss',
+976 silly resolved     keywords: [ 'extend', 'merge', 'options', 'opts', 'object', 'array' ],
+976 silly resolved     author: { name: 'Raynos', email: 'raynos2@gmail.com' },
+976 silly resolved     repository: { type: 'git', url: 'git://github.com/Raynos/xtend.git' },
+976 silly resolved     main: 'immutable',
+976 silly resolved     scripts: { test: 'node test' },
+976 silly resolved     dependencies: {},
+976 silly resolved     devDependencies: { tape: '~1.1.0' },
+976 silly resolved     homepage: 'https://github.com/Raynos/xtend',
+976 silly resolved     contributors: [ [Object], [Object] ],
+976 silly resolved     bugs:
+976 silly resolved      { url: 'https://github.com/Raynos/xtend/issues',
+976 silly resolved        email: 'raynos2@gmail.com' },
+976 silly resolved     licenses: [ [Object] ],
+976 silly resolved     testling: { files: 'test.js', browsers: [Object] },
+976 silly resolved     engines: { node: '>=0.4' },
+976 silly resolved     gitHead: '94a95d76154103290533b2c55ffa0fe4be16bfef',
+976 silly resolved     _id: 'xtend@4.0.0',
+976 silly resolved     _shasum: '8bc36ff87aedbe7ce9eaf0bca36b2354a743840f',
+976 silly resolved     _from: 'xtend@>=4.0.0 <4.1.0-0',
+976 silly resolved     _npmVersion: '1.4.15',
+976 silly resolved     _npmUser: { name: 'raynos', email: 'raynos2@gmail.com' },
+976 silly resolved     maintainers: [ [Object] ],
+976 silly resolved     dist:
+976 silly resolved      { shasum: '8bc36ff87aedbe7ce9eaf0bca36b2354a743840f',
+976 silly resolved        tarball: 'http://registry.npmjs.org/xtend/-/xtend-4.0.0.tgz' },
+976 silly resolved     directories: {},
+976 silly resolved     _resolved: 'https://registry.npmjs.org/xtend/-/xtend-4.0.0.tgz',
+976 silly resolved     readme: 'ERROR: No README data found!' },
+976 silly resolved   { name: 'readable-stream',
+976 silly resolved     version: '1.0.33',
+976 silly resolved     description: 'Streams2, a user-land copy of the stream library from Node.js v0.10.x',
+976 silly resolved     main: 'readable.js',
+976 silly resolved     dependencies:
+976 silly resolved      { 'core-util-is': '~1.0.0',
+976 silly resolved        isarray: '0.0.1',
+976 silly resolved        string_decoder: '~0.10.x',
+976 silly resolved        inherits: '~2.0.1' },
+976 silly resolved     devDependencies: { tap: '~0.2.6' },
+976 silly resolved     scripts: { test: 'tap test/simple/*.js' },
+976 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/readable-stream' },
+976 silly resolved     keywords: [ 'readable', 'stream', 'pipe' ],
+976 silly resolved     browser: { util: false },
+976 silly resolved     author:
+976 silly resolved      { name: 'Isaac Z. Schlueter',
+976 silly resolved        email: 'i@izs.me',
+976 silly resolved        url: 'http://blog.izs.me/' },
+976 silly resolved     license: 'MIT',
+976 silly resolved     gitHead: '0bf97a117c5646556548966409ebc57a6dda2638',
+976 silly resolved     bugs: { url: 'https://github.com/isaacs/readable-stream/issues' },
+976 silly resolved     homepage: 'https://github.com/isaacs/readable-stream',
+976 silly resolved     _id: 'readable-stream@1.0.33',
+976 silly resolved     _shasum: '3a360dd66c1b1d7fd4705389860eda1d0f61126c',
+976 silly resolved     _from: 'readable-stream@>=1.0.33-1 <1.1.0-0',
+976 silly resolved     _npmVersion: '1.4.28',
+976 silly resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+976 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+976 silly resolved     dist:
+976 silly resolved      { shasum: '3a360dd66c1b1d7fd4705389860eda1d0f61126c',
+976 silly resolved        tarball: 'http://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz' },
+976 silly resolved     directories: {},
+976 silly resolved     _resolved: 'https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz',
+976 silly resolved     readme: 'ERROR: No README data found!' } ]
+977 info install xtend@4.0.0 into /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2
+978 info install readable-stream@1.0.33 into /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2
+979 info installOne xtend@4.0.0
+980 info installOne readable-stream@1.0.33
+981 verbose node_modules/gulp-sass/node_modules/vinyl-sourcemaps-apply/node_modules/source-map unbuild
+982 silly lockFile f8a45387-replace-ext-0-0-1 replace-ext@0.0.1
+983 silly lockFile f8a45387-replace-ext-0-0-1 replace-ext@0.0.1
+984 verbose node_modules/gulp-sass/node_modules/through2/node_modules/xtend unbuild
+985 verbose node_modules/gulp-sass/node_modules/through2/node_modules/readable-stream unbuild
+986 verbose tar unpack /Users/jessie/.npm/source-map/0.1.43/package.tgz
+987 silly lockFile 5226ed2a-ps-apply-node-modules-source-map tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/vinyl-sourcemaps-apply/node_modules/source-map
+988 verbose lock tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/vinyl-sourcemaps-apply/node_modules/source-map /Users/jessie/.npm/5226ed2a-ps-apply-node-modules-source-map.lock
+989 silly lockFile 477fbc76-pm-source-map-0-1-43-package-tgz tar:///Users/jessie/.npm/source-map/0.1.43/package.tgz
+990 verbose lock tar:///Users/jessie/.npm/source-map/0.1.43/package.tgz /Users/jessie/.npm/477fbc76-pm-source-map-0-1-43-package-tgz.lock
+991 verbose tar unpack /Users/jessie/.npm/xtend/4.0.0/package.tgz
+992 silly lockFile 495a823c-ules-through2-node-modules-xtend tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/xtend
+993 verbose lock tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/xtend /Users/jessie/.npm/495a823c-ules-through2-node-modules-xtend.lock
+994 silly lockFile b77bf2d2-ssie-npm-xtend-4-0-0-package-tgz tar:///Users/jessie/.npm/xtend/4.0.0/package.tgz
+995 verbose lock tar:///Users/jessie/.npm/xtend/4.0.0/package.tgz /Users/jessie/.npm/b77bf2d2-ssie-npm-xtend-4-0-0-package-tgz.lock
+996 verbose tar unpack /Users/jessie/.npm/readable-stream/1.0.33/package.tgz
+997 silly lockFile 5605b9b3-gh2-node-modules-readable-stream tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/readable-stream
+998 verbose lock tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/readable-stream /Users/jessie/.npm/5605b9b3-gh2-node-modules-readable-stream.lock
+999 silly lockFile 0b9a79ed-adable-stream-1-0-33-package-tgz tar:///Users/jessie/.npm/readable-stream/1.0.33/package.tgz
+1000 verbose lock tar:///Users/jessie/.npm/readable-stream/1.0.33/package.tgz /Users/jessie/.npm/0b9a79ed-adable-stream-1-0-33-package-tgz.lock
+1001 silly gunzTarPerm extractEntry src/libsass/plugins.cpp
+1002 silly gunzTarPerm extractEntry src/libsass/plugins.hpp
+1003 silly gunzTarPerm modes [ '755', '644' ]
+1004 silly gunzTarPerm modes [ '755', '644' ]
+1005 silly gunzTarPerm modes [ '755', '644' ]
+1006 silly gunzTarPerm extractEntry package.json
+1007 silly gunzTarPerm extractEntry package.json
+1008 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+1009 silly gunzTarPerm extractEntry package.json
+1010 silly gunzTarPerm extractEntry src/libsass/position.cpp
+1011 silly gunzTarPerm extractEntry src/libsass/position.hpp
+1012 silly gunzTarPerm extractEntry .npmignore
+1013 silly gunzTarPerm extractEntry README.md
+1014 silly gunzTarPerm extractEntry .npmignore
+1015 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+1016 silly gunzTarPerm extractEntry README.md
+1017 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+1018 silly gunzTarPerm extractEntry .npmignore
+1019 silly gunzTarPerm extractEntry README.md
+1020 http 200 https://registry.npmjs.org/vinyl
+1021 silly registry.get cb [ 200,
+1021 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1021 silly registry.get     etag: '"9QXNPY6HMPJZ31TBE011F2XBA"',
+1021 silly registry.get     'content-type': 'application/json',
+1021 silly registry.get     'cache-control': 'max-age=60',
+1021 silly registry.get     'content-length': '32494',
+1021 silly registry.get     'accept-ranges': 'bytes',
+1021 silly registry.get     date: 'Wed, 09 Sep 2015 23:57:04 GMT',
+1021 silly registry.get     via: '1.1 varnish',
+1021 silly registry.get     age: '44',
+1021 silly registry.get     connection: 'keep-alive',
+1021 silly registry.get     'x-served-by': 'cache-ord1732-ORD',
+1021 silly registry.get     'x-cache': 'HIT',
+1021 silly registry.get     'x-cache-hits': '1',
+1021 silly registry.get     'x-timer': 'S1441843024.991813,VS0,VE0',
+1021 silly registry.get     vary: 'Accept' } ]
+1022 silly gunzTarPerm extractEntry LICENCE
+1023 silly gunzTarPerm modified mode [ 'LICENCE', 436, 420 ]
+1024 silly gunzTarPerm extractEntry immutable.js
+1025 silly gunzTarPerm modified mode [ 'immutable.js', 436, 420 ]
+1026 silly gunzTarPerm extractEntry LICENSE
+1027 silly gunzTarPerm extractEntry duplex.js
+1028 silly gunzTarPerm extractEntry LICENSE
+1029 silly addNameRange number 2 { name: 'vinyl', range: '>=0.5.0-0 <0.6.0-0', hasData: true }
+1030 silly addNameRange versions [ 'vinyl',
+1030 silly addNameRange   [ '0.1.0',
+1030 silly addNameRange     '0.2.0',
+1030 silly addNameRange     '0.2.1',
+1030 silly addNameRange     '0.2.2',
+1030 silly addNameRange     '0.2.3',
+1030 silly addNameRange     '0.3.0',
+1030 silly addNameRange     '0.3.1',
+1030 silly addNameRange     '0.3.2',
+1030 silly addNameRange     '0.3.3',
+1030 silly addNameRange     '0.4.0',
+1030 silly addNameRange     '0.4.1',
+1030 silly addNameRange     '0.4.2',
+1030 silly addNameRange     '0.4.3',
+1030 silly addNameRange     '0.4.4',
+1030 silly addNameRange     '0.4.5',
+1030 silly addNameRange     '0.4.6',
+1030 silly addNameRange     '0.5.0',
+1030 silly addNameRange     '0.5.1',
+1030 silly addNameRange     '0.5.3' ] ]
+1031 verbose addNamed [ 'vinyl', '0.5.3' ]
+1032 verbose addNamed [ '0.5.3', '0.5.3' ]
+1033 silly lockFile e2fa8d66-vinyl-0-5-3 vinyl@0.5.3
+1034 verbose lock vinyl@0.5.3 /Users/jessie/.npm/e2fa8d66-vinyl-0-5-3.lock
+1035 silly gunzTarPerm extractEntry src/libsass/posix/getopt.c
+1036 silly gunzTarPerm extractEntry src/libsass/posix/getopt.h
+1037 silly gunzTarPerm extractEntry mutable.js
+1038 silly gunzTarPerm modified mode [ 'mutable.js', 436, 420 ]
+1039 silly gunzTarPerm extractEntry test.js
+1040 silly gunzTarPerm modified mode [ 'test.js', 436, 420 ]
+1041 silly lockFile 2a3a0e8a--npmjs-org-vinyl-vinyl-0-5-3-tgz https://registry.npmjs.org/vinyl/-/vinyl-0.5.3.tgz
+1042 verbose lock https://registry.npmjs.org/vinyl/-/vinyl-0.5.3.tgz /Users/jessie/.npm/2a3a0e8a--npmjs-org-vinyl-vinyl-0-5-3-tgz.lock
+1043 silly gunzTarPerm extractEntry writable.js
+1044 silly gunzTarPerm extractEntry passthrough.js
+1045 silly gunzTarPerm extractEntry Makefile.dryice.js
+1046 silly gunzTarPerm extractEntry test/run-tests.js
+1047 verbose addRemoteTarball [ 'https://registry.npmjs.org/vinyl/-/vinyl-0.5.3.tgz',
+1047 verbose addRemoteTarball   'b0455b38fc5e0cf30d4325132e461970c2091cde' ]
+1048 info retry fetch attempt 1 at 19:57:05
+1049 verbose fetch to= /var/folders/r0/xh6msb991pj5__g3rq9lm9sr0000gn/T/npm-5699-_RIJ5dNw/registry.npmjs.org/vinyl/-/vinyl-0.5.3.tgz
+1050 http GET https://registry.npmjs.org/vinyl/-/vinyl-0.5.3.tgz
+1051 silly gunzTarPerm extractEntry .jshintrc
+1052 silly gunzTarPerm modified mode [ '.jshintrc', 436, 420 ]
+1053 silly gunzTarPerm extractEntry Makefile
+1054 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+1055 silly gunzTarPerm extractEntry readable.js
+1056 silly gunzTarPerm extractEntry transform.js
+1057 silly gunzTarPerm extractEntry src/libsass/prelexer.cpp
+1058 silly gunzTarPerm extractEntry src/libsass/prelexer.hpp
+1059 silly gunzTarPerm extractEntry lib/_stream_duplex.js
+1060 silly gunzTarPerm extractEntry lib/_stream_passthrough.js
+1061 silly gunzTarPerm extractEntry lib/_stream_readable.js
+1062 silly gunzTarPerm extractEntry test/source-map/test-api.js
+1063 silly gunzTarPerm extractEntry test/source-map/test-base64-vlq.js
+1064 silly gunzTarPerm extractEntry src/libsass/remove_placeholders.cpp
+1065 silly gunzTarPerm extractEntry src/libsass/remove_placeholders.hpp
+1066 silly gunzTarPerm extractEntry lib/_stream_transform.js
+1067 silly gunzTarPerm extractEntry lib/_stream_writable.js
+1068 silly gunzTarPerm extractEntry test/source-map/test-base64.js
+1069 silly gunzTarPerm extractEntry test/source-map/test-binary-search.js
+1070 silly gunzTarPerm extractEntry src/libsass/res/resource.rc
+1071 silly gunzTarPerm extractEntry src/libsass/sass.cpp
+1072 silly gunzTarPerm extractEntry src/libsass/sass.h
+1073 silly gunzTarPerm extractEntry test/source-map/test-array-set.js
+1074 silly gunzTarPerm extractEntry test/source-map/test-source-map-consumer.js
+1075 silly lockFile 495a823c-ules-through2-node-modules-xtend tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/xtend
+1076 silly lockFile 495a823c-ules-through2-node-modules-xtend tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/xtend
+1077 silly gunzTarPerm extractEntry test/source-map/test-source-map-generator.js
+1078 silly gunzTarPerm extractEntry test/source-map/test-source-node.js
+1079 silly lockFile b77bf2d2-ssie-npm-xtend-4-0-0-package-tgz tar:///Users/jessie/.npm/xtend/4.0.0/package.tgz
+1080 silly lockFile b77bf2d2-ssie-npm-xtend-4-0-0-package-tgz tar:///Users/jessie/.npm/xtend/4.0.0/package.tgz
+1081 info preinstall xtend@4.0.0
+1082 verbose readDependencies using package.json deps
+1083 verbose readDependencies using package.json deps
+1084 silly resolved []
+1085 verbose about to build /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/xtend
+1086 info build /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/xtend
+1087 verbose linkStuff [ false,
+1087 verbose linkStuff   false,
+1087 verbose linkStuff   false,
+1087 verbose linkStuff   '/Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules' ]
+1088 info linkStuff xtend@4.0.0
+1089 silly gunzTarPerm extractEntry test/source-map/test-util.js
+1090 silly gunzTarPerm extractEntry test/source-map/util.js
+1091 verbose linkBins xtend@4.0.0
+1092 verbose linkMans xtend@4.0.0
+1093 verbose rebuildBundles xtend@4.0.0
+1094 info install xtend@4.0.0
+1095 silly gunzTarPerm extractEntry src/libsass/sass2scss.cpp
+1096 info postinstall xtend@4.0.0
+1097 silly gunzTarPerm extractEntry test/source-map/test-dog-fooding.js
+1098 silly gunzTarPerm extractEntry .travis.yml
+1099 silly gunzTarPerm extractEntry src/libsass/sass2scss.h
+1100 silly gunzTarPerm extractEntry src/libsass/sass_context.cpp
+1101 silly gunzTarPerm extractEntry lib/source-map.js
+1102 silly gunzTarPerm extractEntry lib/source-map/array-set.js
+1103 silly gunzTarPerm extractEntry lib/source-map/base64-vlq.js
+1104 silly gunzTarPerm extractEntry lib/source-map/base64.js
+1105 silly gunzTarPerm extractEntry src/libsass/sass_context.h
+1106 silly gunzTarPerm extractEntry lib/source-map/binary-search.js
+1107 silly gunzTarPerm extractEntry lib/source-map/mapping-list.js
+1108 silly gunzTarPerm extractEntry lib/source-map/source-map-consumer.js
+1109 silly gunzTarPerm extractEntry src/libsass/sass_functions.cpp
+1110 silly gunzTarPerm extractEntry src/libsass/sass_functions.h
+1111 silly gunzTarPerm extractEntry src/libsass/sass_interface.cpp
+1112 silly gunzTarPerm extractEntry src/libsass/sass_interface.h
+1113 silly gunzTarPerm extractEntry src/libsass/sass_util.cpp
+1114 silly gunzTarPerm extractEntry src/libsass/sass_util.hpp
+1115 silly gunzTarPerm extractEntry lib/source-map/source-map-generator.js
+1116 silly gunzTarPerm extractEntry src/libsass/sass_values.cpp
+1117 silly gunzTarPerm extractEntry src/libsass/sass_values.h
+1118 silly gunzTarPerm extractEntry lib/source-map/source-node.js
+1119 silly gunzTarPerm extractEntry lib/source-map/util.js
+1120 silly gunzTarPerm extractEntry CHANGELOG.md
+1121 silly gunzTarPerm extractEntry src/libsass/sass_version.h
+1122 silly gunzTarPerm extractEntry src/libsass/sass_version.h.in
+1123 silly gunzTarPerm extractEntry src/libsass/script/bootstrap
+1124 silly gunzTarPerm extractEntry src/libsass/script/branding
+1125 silly lockFile 5605b9b3-gh2-node-modules-readable-stream tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/readable-stream
+1126 silly lockFile 5605b9b3-gh2-node-modules-readable-stream tar:///Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/through2/node_modules/readable-stream
+1127 silly lockFile 0b9a79ed-adable-stream-1-0-33-package-tgz tar:///Users/jessie/.npm/readable-stream/1.0.33/package.tgz
+1128 silly lockFile 0b9a79ed-adable-stream-1-0-33-package-tgz tar:///Users/jessie/.npm/readable-stream/1.0.33/package.tgz
+1129 info preinstall readable-stream@1.0.33
+1130 silly gunzTarPerm extractEntry build/assert-shim.js
+1131 verbose readDependencies using package.json deps
+1132 verbose readDependencies using package.json deps
+1133 verbose cache add [ 'core-util-is@~1.0.0', null ]
+1134 verbose cache add name=undefined spec="core-util-is@~1.0.0" args=["core-util-is@~1.0.0",null]
+1135 verbose parsed url { protocol: null,
+1135 verbose parsed url   slashes: null,
+1135 verbose parsed url   auth: null,
+1135 verbose parsed url   host: null,
+1135 verbose parsed url   port: null,
+1135 verbose parsed url   hostname: null,
+1135 verbose parsed url   hash: null,
+1135 verbose parsed url   search: null,
+1135 verbose parsed url   query: null,
+1135 verbose parsed url   pathname: 'core-util-is@~1.0.0',
+1135 verbose parsed url   path: 'core-util-is@~1.0.0',
+1135 verbose parsed url   href: 'core-util-is@~1.0.0' }
+1136 verbose cache add [ 'isarray@0.0.1', null ]
+1137 verbose cache add name=undefined spec="isarray@0.0.1" args=["isarray@0.0.1",null]
+1138 verbose parsed url { protocol: null,
+1138 verbose parsed url   slashes: null,
+1138 verbose parsed url   auth: null,
+1138 verbose parsed url   host: null,
+1138 verbose parsed url   port: null,
+1138 verbose parsed url   hostname: null,
+1138 verbose parsed url   hash: null,
+1138 verbose parsed url   search: null,
+1138 verbose parsed url   query: null,
+1138 verbose parsed url   pathname: 'isarray@0.0.1',
+1138 verbose parsed url   path: 'isarray@0.0.1',
+1138 verbose parsed url   href: 'isarray@0.0.1' }
+1139 verbose cache add name="core-util-is" spec="~1.0.0" args=["core-util-is","~1.0.0"]
+1140 verbose parsed url { protocol: null,
+1140 verbose parsed url   slashes: null,
+1140 verbose parsed url   auth: null,
+1140 verbose parsed url   host: null,
+1140 verbose parsed url   port: null,
+1140 verbose parsed url   hostname: null,
+1140 verbose parsed url   hash: null,
+1140 verbose parsed url   search: null,
+1140 verbose parsed url   query: null,
+1140 verbose parsed url   pathname: '~1.0.0',
+1140 verbose parsed url   path: '~1.0.0',
+1140 verbose parsed url   href: '~1.0.0' }
+1141 verbose addNamed [ 'core-util-is', '~1.0.0' ]
+1142 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+1143 silly lockFile 577b60c4-core-util-is-1-0-0 core-util-is@~1.0.0
+1144 verbose lock core-util-is@~1.0.0 /Users/jessie/.npm/577b60c4-core-util-is-1-0-0.lock
+1145 verbose cache add name="isarray" spec="0.0.1" args=["isarray","0.0.1"]
+1146 verbose parsed url { protocol: null,
+1146 verbose parsed url   slashes: null,
+1146 verbose parsed url   auth: null,
+1146 verbose parsed url   host: null,
+1146 verbose parsed url   port: null,
+1146 verbose parsed url   hostname: null,
+1146 verbose parsed url   hash: null,
+1146 verbose parsed url   search: null,
+1146 verbose parsed url   query: null,
+1146 verbose parsed url   pathname: '0.0.1',
+1146 verbose parsed url   path: '0.0.1',
+1146 verbose parsed url   href: '0.0.1' }
+1147 verbose addNamed [ 'isarray', '0.0.1' ]
+1148 verbose addNamed [ '0.0.1', '0.0.1' ]
+1149 silly lockFile 9efe11b1-isarray-0-0-1 isarray@0.0.1
+1150 verbose lock isarray@0.0.1 /Users/jessie/.npm/9efe11b1-isarray-0-0-1.lock
+1151 verbose cache add [ 'string_decoder@~0.10.x', null ]
+1152 verbose cache add name=undefined spec="string_decoder@~0.10.x" args=["string_decoder@~0.10.x",null]
+1153 verbose parsed url { protocol: null,
+1153 verbose parsed url   slashes: null,
+1153 verbose parsed url   auth: null,
+1153 verbose parsed url   host: null,
+1153 verbose parsed url   port: null,
+1153 verbose parsed url   hostname: null,
+1153 verbose parsed url   hash: null,
+1153 verbose parsed url   search: null,
+1153 verbose parsed url   query: null,
+1153 verbose parsed url   pathname: 'string_decoder@~0.10.x',
+1153 verbose parsed url   path: 'string_decoder@~0.10.x',
+1153 verbose parsed url   href: 'string_decoder@~0.10.x' }
+1154 verbose cache add name="string_decoder" spec="~0.10.x" args=["string_decoder","~0.10.x"]
+1155 verbose parsed url { protocol: null,
+1155 verbose parsed url   slashes: null,
+1155 verbose parsed url   auth: null,
+1155 verbose parsed url   host: null,
+1155 verbose parsed url   port: null,
+1155 verbose parsed url   hostname: null,
+1155 verbose parsed url   hash: null,
+1155 verbose parsed url   search: null,
+1155 verbose parsed url   query: null,
+1155 verbose parsed url   pathname: '~0.10.x',
+1155 verbose parsed url   path: '~0.10.x',
+1155 verbose parsed url   href: '~0.10.x' }
+1156 verbose addNamed [ 'string_decoder', '~0.10.x' ]
+1157 verbose addNamed [ null, '>=0.10.0-0 <0.11.0-0' ]
+1158 silly lockFile 8f75c97d-string-decoder-0-10-x string_decoder@~0.10.x
+1159 verbose lock string_decoder@~0.10.x /Users/jessie/.npm/8f75c97d-string-decoder-0-10-x.lock
+1160 verbose cache add [ 'inherits@~2.0.1', null ]
+1161 verbose cache add name=undefined spec="inherits@~2.0.1" args=["inherits@~2.0.1",null]
+1162 verbose parsed url { protocol: null,
+1162 verbose parsed url   slashes: null,
+1162 verbose parsed url   auth: null,
+1162 verbose parsed url   host: null,
+1162 verbose parsed url   port: null,
+1162 verbose parsed url   hostname: null,
+1162 verbose parsed url   hash: null,
+1162 verbose parsed url   search: null,
+1162 verbose parsed url   query: null,
+1162 verbose parsed url   pathname: 'inherits@~2.0.1',
+1162 verbose parsed url   path: 'inherits@~2.0.1',
+1162 verbose parsed url   href: 'inherits@~2.0.1' }
+1163 silly addNameRange { name: 'core-util-is',
+1163 silly addNameRange   range: '>=1.0.0-0 <1.1.0-0',
+1163 silly addNameRange   hasData: false }
+1164 verbose cache add name="inherits" spec="~2.0.1" args=["inherits","~2.0.1"]
+1165 verbose parsed url { protocol: null,
+1165 verbose parsed url   slashes: null,
+1165 verbose parsed url   auth: null,
+1165 verbose parsed url   host: null,
+1165 verbose parsed url   port: null,
+1165 verbose parsed url   hostname: null,
+1165 verbose parsed url   hash: null,
+1165 verbose parsed url   search: null,
+1165 verbose parsed url   query: null,
+1165 verbose parsed url   pathname: '~2.0.1',
+1165 verbose parsed url   path: '~2.0.1',
+1165 verbose parsed url   href: '~2.0.1' }
+1166 verbose addNamed [ 'inherits', '~2.0.1' ]
+1167 verbose addNamed [ null, '>=2.0.1-0 <2.1.0-0' ]
+1168 silly lockFile 098ef39f-inherits-2-0-1 inherits@~2.0.1
+1169 verbose lock inherits@~2.0.1 /Users/jessie/.npm/098ef39f-inherits-2-0-1.lock
+1170 silly addNameRange { name: 'string_decoder',
+1170 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+1170 silly addNameRange   hasData: false }
+1171 silly addNameRange { name: 'inherits', range: '>=2.0.1-0 <2.1.0-0', hasData: false }
+1172 silly gunzTarPerm extractEntry build/mini-require.js
+1173 silly gunzTarPerm extractEntry build/suffix-browser.js
+1174 silly gunzTarPerm extractEntry build/test-prefix.js
+1175 verbose request where is /core-util-is
+1176 verbose request registry https://registry.npmjs.org/
+1177 verbose url raw /core-util-is
+1178 verbose url resolving [ 'https://registry.npmjs.org/', './core-util-is' ]
+1179 verbose url resolved https://registry.npmjs.org/core-util-is
+1180 verbose request where is https://registry.npmjs.org/core-util-is
+1181 info trying registry request attempt 1 at 19:57:05
+1182 verbose etag "8N932ER6J79FE9PNV7H41QYLJ"
+1183 http GET https://registry.npmjs.org/core-util-is
+1184 verbose request where is /isarray
+1185 verbose request registry https://registry.npmjs.org/
+1186 verbose url raw /isarray
+1187 verbose url resolving [ 'https://registry.npmjs.org/', './isarray' ]
+1188 verbose url resolved https://registry.npmjs.org/isarray
+1189 verbose request where is https://registry.npmjs.org/isarray
+1190 info trying registry request attempt 1 at 19:57:05
+1191 verbose etag "79XQA3ZXVF5QN0X2VYCD81HMN"
+1192 http GET https://registry.npmjs.org/isarray
+1193 verbose request where is /string_decoder
+1194 verbose request registry https://registry.npmjs.org/
+1195 verbose url raw /string_decoder
+1196 verbose url resolving [ 'https://registry.npmjs.org/', './string_decoder' ]
+1197 verbose url resolved https://registry.npmjs.org/string_decoder
+1198 verbose request where is https://registry.npmjs.org/string_decoder
+1199 info trying registry request attempt 1 at 19:57:05
+1200 verbose etag "89NG6AVWTXZBFGLGXXUONULF1"
+1201 http GET https://registry.npmjs.org/string_decoder
+1202 silly gunzTarPerm extractEntry src/libsass/script/ci-build-libsass
+1203 silly gunzTarPerm extractEntry src/libsass/script/ci-install-compiler
+1204 verbose request where is /inherits
+1205 verbose request registry https://registry.npmjs.org/
+1206 verbose url raw /inherits
+1207 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+1208 verbose url resolved https://registry.npmjs.org/inherits
+1209 verbose request where is https://registry.npmjs.org/inherits
+1210 info trying registry request attempt 1 at 19:57:05
+1211 verbose etag "DPT0HCFHSA8NG4H8MNHKEH1FI"
+1212 http GET https://registry.npmjs.org/inherits
+1213 silly gunzTarPerm extractEntry src/libsass/script/ci-install-deps
+1214 silly gunzTarPerm extractEntry src/libsass/script/ci-report-coverage
+1215 silly gunzTarPerm extractEntry build/test-suffix.js
+1216 silly gunzTarPerm extractEntry src/libsass/script/coveralls-debug
+1217 silly gunzTarPerm extractEntry src/libsass/script/spec
+1218 silly gunzTarPerm extractEntry src/libsass/script/tap-driver
+1219 http 200 https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz
+1220 silly gunzTarPerm extractEntry build/prefix-source-map.jsm
+1221 silly gunzTarPerm extractEntry build/prefix-utils.jsm
+1222 silly lockFile 78180fbc--org-minimist-minimist-1-2-0-tgz https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz
+1223 silly lockFile 78180fbc--org-minimist-minimist-1-2-0-tgz https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz
+1224 silly lockFile 36eb7fe6-minimist-1-2-0 minimist@1.2.0
+1225 silly lockFile 36eb7fe6-minimist-1-2-0 minimist@1.2.0
+1226 silly lockFile b7cda548-minimist-1-1-0 minimist@^1.1.0
+1227 silly lockFile b7cda548-minimist-1-1-0 minimist@^1.1.0
+1228 verbose about to build /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/gulp-util
+1229 verbose node_modules/gulp-sass/node_modules/gulp-util unbuild
+1230 info preuninstall gulp-util@3.0.6
+1231 info uninstall gulp-util@3.0.6
+1232 verbose false,/Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules,/Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules unbuild gulp-util@3.0.6
+1233 info postuninstall gulp-util@3.0.6
+1234 silly gunzTarPerm extractEntry src/libsass/script/tap-runner
+1235 silly gunzTarPerm extractEntry build/suffix-source-map.jsm
+1236 silly gunzTarPerm extractEntry build/suffix-utils.jsm
+1237 verbose about to build /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass
+1238 verbose node_modules/gulp-sass unbuild
+1239 info preuninstall gulp-sass@2.0.4
+1240 info uninstall gulp-sass@2.0.4
+1241 verbose true,/Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules,/Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules unbuild gulp-sass@2.0.4
+1242 info postuninstall gulp-sass@2.0.4
+1243 silly gunzTarPerm extractEntry src/libsass/source_map.cpp
+1244 silly gunzTarPerm extractEntry src/libsass/source_map.hpp
+1245 error Error: ENOENT, lstat '/Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/node-sass/src/libsass/emitter.cpp'
+1246 error If you need help, you may report this *entire* log,
+1246 error including the npm and node versions, at:
+1246 error     <http://github.com/npm/npm/issues>
+1247 error System Darwin 13.4.0
+1248 error command "node" "/usr/local/bin/npm" "install" "gulp-sass" "--save-dev"
+1249 error cwd /Users/jessie/Dropbox/3-sites/4-drag-drop
+1250 error node -v v0.10.31
+1251 error npm -v 1.4.23
+1252 error path /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/node-sass/src/libsass/emitter.cpp
+1253 error fstream_path /Users/jessie/Dropbox/3-sites/4-drag-drop/node_modules/gulp-sass/node_modules/node-sass/src/libsass/emitter.cpp
+1254 error fstream_type File
+1255 error fstream_class FileWriter
+1256 error code ENOENT
+1257 error errno 34
+1258 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/writer.js:284:26
+1258 error fstream_stack Object.oncomplete (evalmachine.<anonymous>:107:15)
+1259 verbose exit [ 34, true ]

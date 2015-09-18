@@ -1,0 +1,55 @@
+/* --------------------------- 
+reset
+--------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* --------------------------- 
+main wrappers
+--------------------------- */
+
+.wrap {
+	width: 100%;
+	padding: 20px;
+}
+
+/*droppable — ui-state-highlight*/
+.droppable {
+	border: 2px solid #eee;
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.ui-drag {
+	border: 2px solid tomato;
+}
+
+
+/* --------------------------- 
+boy-band-stuff
+--------------------------- */
+
+.boy-band-member {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border-radius: 100%;
+	overflow: hidden;
+}
